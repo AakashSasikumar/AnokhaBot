@@ -13,4 +13,4 @@ If you want to test out a version of this Bot, download telegram and search for 
 This chatbot figures out the context from what you type in and chooses a reply from one of the replies that are pre-built. I've implemented a very basic error loging system wherein if the bot replies incorrectly, it will be logged and can be later added to the training data to make it better.
 
 ## Disclaimer
-The training data (context.json) keeps increasing as the number of users increase. Given that we are college students (pretty immature) I had to include two separate categories cuss and sexual advances from the large number of queries regarding these areas. Basically, you can choose not to include the cuss words and sexual advances, I have included the cleanContext.json for that purpose.
+The training data (context.json) keeps increasing as the number of users increase. Given that we are college students (pretty immature) I had to include two separate categories cuss and sexual advances from the large number of queries pertaining to these areas. Basically, you can choose not to include the cuss words and sexual advances, I have included the cleanContext.json for that purpose.
