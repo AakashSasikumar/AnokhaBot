@@ -1,4 +1,4 @@
-/tflearn_logs
+data/tflearn_logs
 config.py
 flaskApp.py
 errors.txt

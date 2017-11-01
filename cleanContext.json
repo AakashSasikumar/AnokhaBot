@@ -1,0 +1,43 @@
+{"intents": [
+    {"tag": "greetings",
+        "patterns": ["/start", "Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Yo", "What's up", "How ya doing?", "How are you doing?", "Whaddup?", "hey"],
+        "responses": ["Hello, what can I help you with?", "Hi there, how can I help?", "Hey! Anything I can help with?"]
+       },
+       {"tag": "self",
+           "patterns": ["Who are you?", "What's your name?", "What do you do?", "What is your purpose?", "What are you?", "Your name?", "What can you do?"],
+           "responses": ["My name is AnokaBot, I'm here to help you out with anything related to Anokha.", "My name is AnokhaBot, ask me anything related to Anokha", "My name is AnokhaBot, what can I help you out with?"]
+       },
+       {"tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Chao"],
+        "responses": ["See you later!", "Have a nice day", "Bye! Come back again soon."]
+       },
+       {"tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Bless", "Peace"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+       },
+       {"tag": "days",
+        "patterns": ["How long is the event?", "What are the hours?", "When does it start?", "How long?" ],
+        "responses": ["Anokha is for 3 days", "3 days of non stop fun!", "3 days of fun from day to night!"]
+       },
+       {"tag": "events",
+        "patterns": ["What kind of events are there?", "What events?", "Events?", "What is there?", "What's there?", "What is there?" ],
+        "responses": ["There are technical, non-technical ones", "There are enough events to make sure nerds, geeks and non geeks have fun"]
+       },
+       {"tag": "payments",
+        "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?", "What kind of payment?", "Payment", "Cash only?" ],
+        "responses": ["We accept VISA and cash only", "We accept VISA and cash"]
+       },
+       {"tag": "register",
+        "patterns": ["Where can I register?", "How do I register?", "Can I register now?", "Where can i get started?", "Where to start?", "Start?", "How to register?", "What is the date for registration?", "When will the registrations be open?"],
+        "responses": ["Contact the admin for registration", "Registrations aren't open, contact the admin"]
+       },
+       {"tag": "food",
+        "patterns": ["What kind of food is there?", "Is the food going to be good?", "How's the food?", "Food?", "What are the stalls?" ],
+        "responses": ["There's enough food to get around", "We have food from a lot of places", "We have food from famous places like Krishna Dhaba!"]
+       },
+       {"tag": "anokha",
+           "patterns": ["What is anokha?", "Anokha?", "Where is anokha", "When is Anokha"],
+           "responses": ["Anokha is a tech fest in Amrita", "Anokha is one of India's biggest tech fests!", "Come to Amrita coimbatore and know for yourself", "It is a 3 day festival"]
+       }
+]
+}

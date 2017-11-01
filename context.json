@@ -44,7 +44,7 @@
         "responses": ["Om Nama Shivayaaaa!", "NEENGA SHUTUP PANNUNGA", "Trigger Panadhe!"]
     },
     {"tag": "sexual advances",
-        "patterns": ["Do you smash", "Wanna fuck", "Do you smash", "What is sex", "Will you have sex with me"],
+        "patterns": ["Do you smash", "Wanna fuck", "Do you smash", "What is sex", "Will you have sex with me", "Will you marry me?", "fuck me", "give me a bj", "give me a blow job", "give me a rim job"],
         "responses": ["I have a boyfriend"]
     }
 ]
