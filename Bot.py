@@ -17,8 +17,8 @@ with open('context.json') as jsonData:
     contexts = json.load(jsonData)
 
 net = tflearn.input_data(shape=[None, len(trainX[0])])
-net = tflearn.fully_connected(net, 4)
-net = tflearn.fully_connected(net, 4)
+net = tflearn.fully_connected(net, 8)
+net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, len(trainY[0]), activation='softmax')
 net = tflearn.regression(net)
 
