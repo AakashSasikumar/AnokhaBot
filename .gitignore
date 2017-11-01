@@ -2,3 +2,4 @@
 config.py
 flaskApp.py
 errors.txt
+/__pycache__

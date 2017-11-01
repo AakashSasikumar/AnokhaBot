@@ -6,15 +6,16 @@ import Bot
 from config import *
 
 proxy_url = "http://proxy.server:3128"
-#telepot.api._pools = {
-#    'default': urllib3.ProxyManager(proxy_url=proxy_url, num_pools=3, maxsize=10, retries=False, timeout=30),
-#}
+# telepot.api._pools = {
+#     'default': urllib3.ProxyManager(proxy_url=proxy_url, num_pools=3, maxsize=10, retries=False, timeout=30),
+# }
 telepot.api._onetime_pool_spec = (urllib3.ProxyManager, dict(proxy_url=proxy_url, num_pools=1, maxsize=1, retries=False, timeout=30))
 
 bot = telepot.Bot(BOT_TOKEN)
 prevText = {}
 prevReply = {}
 people = []
+
 
 def handle(msg):
     content_type, chat_type, chat_id = telepot.glance(msg)
@@ -28,7 +29,7 @@ def handle(msg):
             people.append(chat_id)
         if msg["text"] == "/wrong":
             with open("errors.txt", "a") as file:
-                writeData = "cid-" + str(chat_id) + "-txt-" + str(prevText[chat_id]) + "-rep-" + str(prevReply[chat_id]) +"\n"
+                writeData = "cid-" + str(chat_id) + "-txt-" + str(prevText[chat_id]) + "-rep-" + str(prevReply[chat_id]) + "\n"
                 file.write(writeData)
                 return
         reply = Bot.response(msg["text"])
@@ -39,6 +40,6 @@ def handle(msg):
 
 bot.message_loop(handle)
 
-print ('Listening ...')
+print('Listening ...')
 while 1:
     time.sleep(10)
