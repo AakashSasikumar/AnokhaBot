@@ -3,3 +3,4 @@ config.py
 flaskApp.py
 errors.txt
 /__pycache__
+gitlab.txt
