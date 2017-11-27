@@ -29,15 +29,15 @@
     },
     {"tag": "register",
      "patterns": ["Where can I register?", "How do I register?", "Can I register now?", "Where can i get started?", "Where to start?", "Start?", "How to register?", "What is the date for registration?", "When will the registrations be open?"],
-     "responses": ["Contact the admin for registration", "Registrations aren't open, contact the admin"]
+     "responses": ["Registrations aren't open as of now. Please wait"]
     },
     {"tag": "food",
      "patterns": ["What kind of food is there?", "Is the food going to be good?", "How's the food?", "Food?", "What are the stalls?" ],
      "responses": ["There's enough food to get around", "We have food from a lot of places", "We have food from famous places like Krishna Dhaba!"]
     },
     {"tag": "anokha",
-        "patterns": ["What is anokha?", "Anokha?", "Where is anokha", "When is Anokha"],
-        "responses": ["Anokha is a tech fest in Amrita", "Anokha is one of India's biggest tech fests!", "Come to Amrita coimbatore and know for yourself", "It is a 3 day festival"]
+        "patterns": ["What is anokha?", "Anokha?", "When is Anokha"],
+        "responses": ["Anokha is a tech fest at Amrita", "Anokha is one of India's biggest tech fests!", "It is a 3 day festival"]
     },
     {"tag": "cuss",
         "patterns": ["Motherfucker", "fuck", "vagina", "dick", "nigger", "nigga", "cunt", "pussy", "bitch", "fucker", "asshole", "ass", "bitch ass cunt", "shit"],
@@ -46,6 +46,10 @@
     {"tag": "sexual advances",
         "patterns": ["Do you smash", "Wanna fuck", "Do you smash", "What is sex", "Will you have sex with me", "Will you marry me?", "fuck me", "give me a bj", "give me a blow job", "give me a rim job"],
         "responses": ["I have a boyfriend"]
+    },
+    {"tag": "location",
+        "patterns": ["Where is Anokha", "Is it in coimbatore", "Where do I come?", "Where"],
+        "responses": ["Anokha is conducted at Amrita University Coimbatore"]
     }
 ]
 }

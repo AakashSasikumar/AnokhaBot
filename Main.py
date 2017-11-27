@@ -29,6 +29,7 @@ for intent in intents['contexts']:
 words = [stemmer.stem(w.lower()) for w in words if w not in stopWords]
 
 words = sorted(list(set(words)))
+# print(documents)
 
 trainingData = []
 
