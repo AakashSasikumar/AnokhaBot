@@ -1,55 +1,239 @@
-{"contexts": [
-    {"tag": "greetings",
-     "patterns": ["/start", "Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Yo", "What's up", "How ya doing?", "How are you doing?", "Whaddup?", "hey"],
-     "responses": ["Hello, what can I help you with?", "Hi there, how can I help?", "Hey! Anything I can help with?"]
-    },
-    {"tag": "self",
-        "patterns": ["Who are you?", "What's your name?", "What do you do?", "What is your purpose?", "What are you?", "Your name?", "What can you do?"],
-        "responses": ["My name is AnokaBot, I'm here to help you out with anything related to Anokha.", "My name is AnokhaBot, ask me anything related to Anokha", "My name is AnokhaBot, what can I help you out with?"]
-    },
-    {"tag": "goodbye",
-     "patterns": ["Bye", "See you later", "Goodbye", "Chao"],
-     "responses": ["See you later!", "Have a nice day", "Bye! Come back again soon."]
-    },
-    {"tag": "thanks",
-     "patterns": ["Thanks", "Thank you", "That's helpful", "Bless", "Peace"],
-     "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {"tag": "days",
-     "patterns": ["How long is the event?", "What are the hours?", "When does it start?", "How long?" ],
-     "responses": ["Anokha is for 3 days", "3 days of non stop fun!", "3 days of fun from day to night!"]
-    },
-    {"tag": "events",
-     "patterns": ["What kind of events are there?", "What events?", "Events?", "What is there?", "What's there?", "What is there?" ],
-     "responses": ["There are technical, non-technical ones", "There are enough events to make sure nerds, geeks and non geeks have fun"]
-    },
-    {"tag": "payments",
-     "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?", "What kind of payment?", "Payment", "Cash only?" ],
-     "responses": ["We accept VISA and cash only", "We accept VISA and cash"]
-    },
-    {"tag": "register",
-     "patterns": ["Where can I register?", "How do I register?", "Can I register now?", "Where can i get started?", "Where to start?", "Start?", "How to register?", "What is the date for registration?", "When will the registrations be open?"],
-     "responses": ["Registrations aren't open as of now. Please wait"]
-    },
-    {"tag": "food",
-     "patterns": ["What kind of food is there?", "Is the food going to be good?", "How's the food?", "Food?", "What are the stalls?" ],
-     "responses": ["There's enough food to get around", "We have food from a lot of places", "We have food from famous places like Krishna Dhaba!"]
-    },
-    {"tag": "anokha",
-        "patterns": ["What is anokha?", "Anokha?", "When is Anokha"],
-        "responses": ["Anokha is a tech fest at Amrita", "Anokha is one of India's biggest tech fests!", "It is a 3 day festival"]
-    },
-    {"tag": "cuss",
-        "patterns": ["Motherfucker", "fuck", "vagina", "dick", "nigger", "nigga", "cunt", "pussy", "bitch", "fucker", "asshole", "ass", "bitch ass cunt", "shit"],
-        "responses": ["Om Nama Shivayaaaa!", "NEENGA SHUTUP PANNUNGA", "Trigger Panadhe!"]
-    },
-    {"tag": "sexual advances",
-        "patterns": ["Do you smash", "Wanna fuck", "Do you smash", "What is sex", "Will you have sex with me", "Will you marry me?", "fuck me", "give me a bj", "give me a blow job", "give me a rim job"],
-        "responses": ["I have a boyfriend"]
-    },
-    {"tag": "location",
-        "patterns": ["Where is Anokha", "Is it in coimbatore", "Where do I come?", "Where"],
-        "responses": ["Anokha is conducted at Amrita University Coimbatore"]
-    }
-]
+{
+    "contexts": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "/start",
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Yo",
+                "What's up",
+                "How ya doing?",
+                "How are you doing?",
+                "Whaddup?",
+                "hey"
+            ],
+            "responses": [
+                "Hello, what can I help you with?",
+                "Hi there, how can I help?",
+                "Hey! Anything I can help with?"
+            ]
+        },
+        {
+            "tag": "self",
+            "patterns": [
+                "Who are you?",
+                "What's your name?",
+                "What do you do?",
+                "What is your purpose?",
+                "What are you?",
+                "Your name?",
+                "What can you do?"
+            ],
+            "responses": [
+                "My name is AnokaBot, I'm here to help you out with anything related to Anokha. You can ask me about the food here, the events being conducted, and I can even help you out with registration."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Chao"
+            ],
+            "responses": [
+                "See you later!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Bless",
+                "Peace"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "days",
+            "patterns": [
+                "How long is the event?",
+                "What are the hours?",
+                "When does it start?",
+                "How long?"
+            ],
+            "responses": [
+                "Anokha is for 3 days",
+                "3 days of non stop fun!",
+                "3 days of fun from day to night!"
+            ]
+        },
+        {
+            "tag": "events",
+            "patterns": [
+                "What kind of events are there?",
+                "What events?",
+                "Events?",
+                "What is there?",
+                "What's there?",
+                "What is there?"
+            ],
+            "responses": [
+                "There are technical, non-technical ones",
+                "There are enough events to make sure nerds, geeks and non geeks have fun"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "Do you accept Mastercard?",
+                "Are you cash only?",
+                "What kind of payment?",
+                "Payment",
+                "Cash only?"
+            ],
+            "responses": [
+                "We accept VISA and cash only",
+                "We accept VISA and cash"
+            ]
+        },
+        {
+            "tag": "register",
+            "patterns": [
+                "Where can I register?",
+                "How do I register?",
+                "Can I register now?",
+                "Where can i get started?",
+                "Where to start?",
+                "Start?",
+                "How to register?",
+                "What is the date for registration?",
+                "When will the registrations be open?"
+            ],
+            "responses": [
+                "Registrations aren't open as of now. Please wait"
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": [
+                "What kind of food is there?",
+                "Is the food going to be good?",
+                "How's the food?",
+                "Food?",
+                "What are the stalls?",
+                "Where can i eat",
+                "Eat",
+                "Tell me about food",
+                "Tell me more about food"
+            ],
+            "responses": [
+                "We have food from a lot of places",
+                "We have food from famous places!",
+                "The food is going to be great, you don't have to worry"
+            ]
+        },
+        {
+            "tag": "anokha",
+            "patterns": [
+                "What is anokha?",
+                "Anokha?",
+                "When is Anokha",
+                "Tell me about Anokha"
+            ],
+            "responses": [
+                "Anokha is a tech fest at Amrita",
+                "Anokha is one of India's biggest tech fests!",
+                "It is a 3 day festival"
+            ]
+        },
+        {
+            "tag": "cuss",
+            "patterns": [
+                "Motherfucker",
+                "fuck",
+                "vagina",
+                "dick",
+                "nigger",
+                "nigga",
+                "cunt",
+                "pussy",
+                "bitch",
+                "fucker",
+                "asshole",
+                "ass",
+                "bitch ass cunt",
+                "shit"
+            ],
+            "responses": [
+                "Om Nama Shivayaaaa!",
+                "NEENGA SHUTUP PANNUNGA",
+                "Trigger Panadhe!"
+            ]
+        },
+        {
+            "tag": "sexual advances",
+            "patterns": [
+                "Do you smash",
+                "Wanna fuck",
+                "Do you smash",
+                "What is sex",
+                "Will you have sex with me",
+                "Will you marry me?",
+                "fuck me",
+                "give me a bj",
+                "give me a blow job",
+                "give me a rim job"
+            ],
+            "responses": [
+                "I have a boyfriend"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where is Anokha",
+                "Is it in coimbatore",
+                "Where do I come?",
+                "Where",
+                "Coimbatore",
+                "Which Amrita",
+                "Which campus",
+                "What campus"
+            ],
+            "responses": [
+                "Anokha is conducted at Amrita University Coimbatore"
+            ]
+        },
+        {
+            "tag": "stall",
+            "patterns": [
+                "hmm",
+                "ahaan",
+                "yeah",
+                "yes",
+                "yep",
+                "i see",
+                "wow"
+            ],
+            "responses": [
+                "Yes",
+                "That's right",
+                "yep"
+            ]
+        }
+    ]
 }
