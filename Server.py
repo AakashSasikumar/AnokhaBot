@@ -106,7 +106,7 @@ def handle(msg):
                 people.remove(chat_id)
                 bot.sendMessage(chat_id, "You are not an admin anymore. You can become an admin once again by typing /makemeadmin")
                 return
-            bot.sendMessage(chat_id, "Greetings admin. What do you wanna do?\ninsertNewContext(inc)\n/train\naddPattern(ap)\n/errortxt\naddResponse(ar)\naddAdmin(adm)\nremoveAdmin(rmadm)")
+            bot.sendMessage(chat_id, "Greetings admin. What do you wanna do?\ninsertNewContext(inc-contextname)\n/train\naddPattern(ap-contextname-question)\n/errortxt\naddResponse(ar-contextname-response)\naddAdmin(adm-chatid)\nremoveAdmin(rmadm)")
 
         if chat_id not in people:
             bot.sendMessage(chat_id, "Hello!  You seem to be a new face, allow me to introduce myself. I am anokhaBot I'm an \
