@@ -35,10 +35,20 @@ def handle(msg):
         if chat_id in admin:
             if msg['text'] == '/train':
                 Main.train()
-                # time.sleep(10)
                 subprocess.Popen(['python', 'Restart.py'])
                 Bot.sendMessage(chat_id, "Training is done! Wait for 15 seconds for restart.")
                 _thread.interrupt_main()
+                """
+                /train was tricky to implement. First it came to my notice that after training, when testing out the
+                chatbot, it would not reply to the new tags that were added. This was because the program had already
+                loaded all the variables into the ram and we need to update the variables again to make it reflect the
+                changes. The first idea was to reload the Bot.py file (importlib.reload()), this won't work because
+                tensorflow wasn't built to do that. Next idea was to make a script to restart this script after terminating
+                this one. os.system() won't work because it was waiting for the new process to exit. So subprocess.Popen()
+                was used. Termniating a script was a problem as well because most of the functions just raised the SystemExit
+                exception. So, the only was to counter that was by using _thead.interrpt_main() which gives throws a
+                KeyboardInterrupt exception effectively stopping this running process no matter what
+                """
 
             if msg['text'] == '/errortxt':
                 with open('errors.txt') as s:
