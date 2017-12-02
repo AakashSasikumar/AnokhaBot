@@ -98,7 +98,7 @@ def handle(msg):
                     permAdmin.append(chatID)
                 if chatID not in admin:
                     admin.append(chatID)
-                bot.sendMessage(chat_id, "Chat ID " + chatID + " is not an admin")
+                bot.sendMessage(chat_id, "Chat ID " + chatID + " is now an admin")
                 bot.sendMessage(chatID, "You have been made an admin")
 
             if 'rmadm' in msg['text'][:6].lower():
