@@ -2,10 +2,15 @@
 import telepot
 import time
 import urllib3
-import Bot
 from config import *
-import Main
 import json
+import Bot
+import tflearn
+import tensorflow as tf
+import os
+import _thread
+import subprocess
+import Main
 
 proxy_url = "http://proxy.server:3128"
 # telepot.api._pools = {
@@ -28,10 +33,12 @@ def handle(msg):
     if content_type == 'text':
 
         if chat_id in admin:
-            
             if msg['text'] == '/train':
                 Main.train()
-                bot.sendMessage(chat_id, "New data has been trained")
+                # time.sleep(10)
+                subprocess.Popen(['python', 'Restart.py'])
+                Bot.sendMessage(chat_id, "Training is done! Wait for 15 seconds for restart.")
+                _thread.interrupt_main()
 
             if msg['text'] == '/errortxt':
                 with open('errors.txt') as s:

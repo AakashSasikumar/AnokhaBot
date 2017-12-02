@@ -1,28 +1,28 @@
-import pickle, json
+import pickle
+import json
 import tflearn
 import tensorflow as tf
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 import numpy as np
 import random
-stemmer = LancasterStemmer()
 
+stemmer = LancasterStemmer()
 data = pickle.load(open("data/trainingData", "rb"))
 words = data['words']
 classes = data['classes']
 trainX = data['trainX']
 trainY = data['trainY']
-
 with open('context.json') as jsonData:
     contexts = json.load(jsonData)
-
 net = tflearn.input_data(shape=[None, len(trainX[0])])
 net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, len(trainY[0]), activation='softmax')
 net = tflearn.regression(net)
-
 model = tflearn.DNN(net, tensorboard_dir='tflearn_logs')
+model.load('data/model/model.tflearn')
+MIN_ACC = 0.25
 
 
 def tokenizeAndStem(sentence):
@@ -39,12 +39,8 @@ def makeInputArray(sentence, words, showDetails=False):
             if w == s:
                 bag[i] = 1
                 if showDetails:
-                    print("found in bag: %s"% w)
+                    print("found in bag: %s" % w)
     return(np.array(bag))
-
-model.load('data/model/model.tflearn')
-
-MIN_ACC = 0.25
 
 
 def classify(sentence):

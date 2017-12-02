@@ -187,6 +187,8 @@
         {
             "tag": "sexual advances",
             "patterns": [
+                "Baby",
+                "Babe",
                 "Do you smash",
                 "Wanna fuck",
                 "Do you smash",
@@ -232,7 +234,7 @@
             "responses": [
                 "Yes",
                 "That's right",
-                "yep"
+                "Yep"
             ]
         }
     ]

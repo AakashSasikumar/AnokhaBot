@@ -1,6 +1,5 @@
-import os
 import subprocess
+import time
 
-print("before")
+time.sleep(10)
 subprocess.Popen(['python', 'Server.py'])
-print("gonna exit")
