@@ -7,10 +7,10 @@ import json
 import Bot
 import tflearn
 import tensorflow as tf
-import os
-import _thread
 import subprocess
 import Main
+import sys
+import _thread
 
 proxy_url = "http://proxy.server:3128"
 # telepot.api._pools = {
@@ -35,8 +35,11 @@ def handle(msg):
         if chat_id in admin:
             if msg['text'] == '/train':
                 Main.train()
-                subprocess.Popen(['python', 'Restart.py'])
-                Bot.sendMessage(chat_id, "Training is done! Wait for 15 seconds for restart.")
+                if "linux" in sys.platform.lower():
+                    subprocess.Popen(['python3', 'Restart.py'])
+                else:
+                    subprocess.Popen(['python', 'Restart.py'])
+                bot.sendMessage(chat_id, "Training is done! Wait for 15 seconds for restart.")
                 _thread.interrupt_main()
                 """
                 /train was tricky to implement. First it came to my notice that after training, when testing out the
@@ -98,7 +101,7 @@ def handle(msg):
                     permAdmin.append(chatID)
                 if chatID not in admin:
                     admin.append(chatID)
-                bot.sendMessage(chat_id, "Chat ID " + chatID + " is now an admin")
+                bot.sendMessage(chat_id, "Chat ID " + str(chatID) + " is now an admin")
                 bot.sendMessage(chatID, "You have been made an admin")
 
             if 'rmadm' in msg['text'][:6].lower():

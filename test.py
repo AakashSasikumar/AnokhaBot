@@ -1,6 +1,9 @@
 import os
 import subprocess
+import sys
 
-print("before")
-subprocess.Popen(['python', 'Server.py'])
-print("gonna exit")
+
+print(sys.platform)
+#print("before")
+#subprocess.Popen(['python3', 'Server.py'])
+#print("gonna exit")

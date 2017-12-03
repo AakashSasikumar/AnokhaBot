@@ -1,5 +1,9 @@
 import subprocess
 import time
+import sys
 
 time.sleep(10)
-subprocess.Popen(['python', 'Server.py'])
+if 'linux' in sys.platform.lower():
+    subprocess.Popen(['python3', 'Server.py'])
+else:
+    subprocess.Popen(['python', 'Server.py'])
