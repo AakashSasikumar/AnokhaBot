@@ -7,6 +7,9 @@ from nltk.stem.lancaster import LancasterStemmer
 import numpy as np
 import random
 
+
+context = {}
+
 stemmer = LancasterStemmer()
 data = pickle.load(open("data/trainingData", "rb"))
 words = data['words']
@@ -15,11 +18,13 @@ trainX = data['trainX']
 trainY = data['trainY']
 with open('context.json') as jsonData:
     contexts = json.load(jsonData)
+
 net = tflearn.input_data(shape=[None, len(trainX[0])])
-net = tflearn.fully_connected(net, 8)
-net = tflearn.fully_connected(net, 8)
+net = tflearn.fully_connected(net, 16)
+net = tflearn.fully_connected(net, 16)
 net = tflearn.fully_connected(net, len(trainY[0]), activation='softmax')
 net = tflearn.regression(net)
+
 model = tflearn.DNN(net, tensorboard_dir='tflearn_logs')
 model.load('data/model/model.tflearn')
 MIN_ACC = 0.25
@@ -56,11 +61,17 @@ def classify(sentence):
     return returnList
 
 
-def response(sentence):
+def response(sentence, chatID=0):
     results = classify(sentence)
     print(results)
     if results:
         while results:
             for i in contexts['contexts']:
                 if i['tag'] == results[0][0]:
-                    return random.choice(i['responses'])
+                    if 'contextSet' in i:
+                        context[chatID] = i['contextSet']
+
+                    if not 'contextFilter' in i or (chatID in context and 'contextFilter' in i and i['contextFilter'] == context[chatID]) or "contextCheck" in i:
+
+                        return random.choice(i['responses'])
+                    return

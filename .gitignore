@@ -4,3 +4,6 @@ errors.txt
 /__pycache__
 gitlab.txt
 TestConfig.py
+OrgTeamData.json
+TechTeamData.json
+.vscode/settings.json

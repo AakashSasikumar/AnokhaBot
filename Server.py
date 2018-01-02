@@ -12,6 +12,12 @@ import Main
 import sys
 import _thread
 
+# TO-DO
+# 1. Workshops
+# 2. Eventide
+# 3. Accomodation
+# 4. Food
+
 proxy_url = "http://proxy.server:3128"
 # telepot.api._pools = {
 #     'default': urllib3.ProxyManager(proxy_url=proxy_url, num_pools=3, maxsize=10, retries=False, timeout=30),
@@ -126,18 +132,15 @@ def handle(msg):
                 admin.append(chat_id)
                 bot.sendMessage(chat_id, "You are now an admin")
                 return
-            reply = Bot.response(msg["text"])
+            reply = Bot.response(msg["text"], chat_id)
             prevText[chat_id] = msg["text"]
             prevReply[chat_id] = reply
-            bot.sendMessage(chat_id, reply)
+            if not reply == None:
+                bot.sendMessage(chat_id, reply)
+            else:
+                bot.sendMessage(chat_id, "I'm sorry, I didn't understand you. Could you rephrase it please?")
             print(prevReply, prevText)
 
-
-def msgToAdmin(chatID):
-    bot.sendMessage(chatID, """Greetings admin. What do you wanna do?\ninsertNewContext(inc-context name) /
-                               \n/train\naddPattern(ap-context name-question)\n/errortxt\naddResponse(ar-context name-response)
-                               \naddAdmin(adm-chat id)\nremoveAdmin(rmadm(you won't be admin anymore))\n
-                               You can type /makemeadmin when to become an admin again.""")
 bot.message_loop(handle)
 
 print('Listening ...')

@@ -14,7 +14,9 @@
                 "How ya doing?",
                 "How are you doing?",
                 "Whaddup?",
-                "hey"
+                "hey",
+                "Sup",
+                "Wassup"
             ],
             "responses": [
                 "Hello, what can I help you with?",
@@ -67,17 +69,15 @@
             ]
         },
         {
-            "tag": "days",
+            "tag": "eventide",
             "patterns": [
-                "How long is the event?",
-                "What are the hours?",
-                "When does it start?",
-                "How long?"
+                "When is eventide",
+                "who is coming for eventide",
+                "eventide",
+                "What about eventide"
             ],
             "responses": [
-                "Anokha is for 3 days",
-                "3 days of non stop fun!",
-                "3 days of fun from day to night!"
+                "The eventide is on the 3rd day of Anokha(25th February). I'm not allowed to tell you who's going to come for eventide."
             ]
         },
         {
@@ -121,11 +121,233 @@
                 "Start?",
                 "How to register?",
                 "What is the date for registration?",
-                "When will the registrations be open?"
+                "When will the registrations be open?",
+                "When can i register"
             ],
             "responses": [
-                "Registrations aren't open as of now. Please wait"
+                "When do you want to register?"
+            ],
+            "contextSet": "date"
+        },
+        {
+            "tag": "boyfriend",
+            "patterns": [
+                "Do you have a boyfriend?",
+                "Do you have a bf?",
+                "Who is your boyfriend?",
+                "Who is your bf"
+            ],
+            "responses": [
+                "His name is Watson... IBM Watson."
             ]
+        },
+        {
+            "tag": "techHeads",
+            "patterns": [
+                "Who are the tech heads?",
+                "Who are the co-heads?",
+                "Who are the heads?",
+                "Tech heads?"
+            ],
+            "responses": [
+                "Mention a department please.",
+                "Could you please mention which department you are referring to?"
+            ],
+            "contextSet": "techHeadDept"
+        },
+        {
+            "tag": "cse",
+            "patterns": [
+                "Who are the cse tech heads?",
+                "computer science engineering",
+                "cse",
+                "comp. sci",
+                "computer"
+            ],
+            "responses": [
+                "Heads: Sachin S Kamath. 962141970 and G Rohan Reddy. 7981542153. Co-Heads: Shradhaa Janakiraman. 8056078454 and Arjun Ramesh. 9445006860"
+            ],
+            "contextFilter": "techHeadDept",
+            "contextCheck": "techHeadDept"
+        },
+        {
+            "tag": "mech",
+            "patterns": [
+                "Who are the mech tech heads?",
+                "mechanical engineering",
+                "mech",
+                "mechanical"
+            ],
+            "responses": [
+                "Heads: S. Harish. 944716657 and Nithin Subbiah M. 9500346720. Co-Heads: G Rohith. 9444083735 and P Devananth. 9487647402"
+            ],
+            "contextFilter": "techHeadDept",
+            "contextCheck": "techHeadDept"
+        },
+        {
+            "tag": "ece",
+            "patterns": [
+                "Who are the ece tech heads?",
+                "electronics and communication engineering",
+                "ece"
+            ],
+            "responses": [
+                "Heads: Katkuri Sai Sukesh Reddy. 9597601953 and Raghava Yagnik. 8870482744. Co-Heads: V Sukanya. 8903420771 and Sethu Mathavan P.K. 9994413151"
+            ],
+            "contextFilter": "techHeadDept",
+            "contextCheck": "techHeadDept"
+        },
+        {
+            "tag": "eee",
+            "patterns": [
+                "Who are the eee tech heads?",
+                "electrical and electronics engineering",
+                "eee"
+            ],
+            "responses": [
+                "Heads: Vikhash Karthik. 8883525222 and B. Lakshmi. 9600321659. Co-Heads: Athish.T. and Meenakshi Saji. 8943120312"
+            ],
+            "contextFilter": "techHeadDept",
+            "contextCheck": "techHeadDept"
+        },
+        {
+            "tag": "chem",
+            "patterns": [
+                "Who are the chemical tech heads?",
+                "chemical engineering",
+                "chem",
+                "chemical"
+            ],
+            "responses": [
+                "Heads: M Sanjay  Krishna. 9445140970 Co-Heads: Viswajeet Krishna V.9847698873 and Rishi Kaashyap B. 9500338400"
+            ],
+            "contextFilter": "techHeadDept",
+            "contextCheck": "techHeadDept"
+        },
+        {
+            "tag": "aero",
+            "patterns": [
+                "Who are the aero tech heads?",
+                "Who are the aerospace tech heads?",
+                "aerospace engineering",
+                "aero",
+                "aerospace"
+            ],
+            "responses": [
+                "Heads: Shyam Kashyab S. 9840927258 and Gangadhar Arasu V. 9444727943 Co-Heads: Sundhara Pandiyan. R.9489213111 and T R A Vinodh Raaj. 9894077298"
+            ],
+            "contextFilter": "techHeadDept",
+            "contextCheck": "techHeadDept"
+        },
+        {
+            "tag": "civil",
+            "patterns": [
+                "Who are the civil tech heads?",
+                "Who are the civil engineering tech heads?",
+                "civil engineering",
+                "civil"
+            ],
+            "responses": [
+                "Heads: Senthil Kumar  S K. 7598686756 Co-Heads: Mouries R D. R.9976070888 and Krishnaraj R. 9445482183"
+            ],
+            "contextFilter": "techHeadDept",
+            "contextCheck": "techHeadDept"
+        },
+        {
+            "tag": "ascom",
+            "patterns": [
+                "Who are the ascom tech heads?",
+                "Who are the school of communication tech heads?",
+                "who are the amrita school of communication tech heads",
+                "amrita school of communication",
+                "ascom",
+                "communication"
+            ],
+            "responses": [
+                "Heads: Athira Muralidheeran. 8055672073 and Deekshith B. 9567254222 Co-Heads: Sreevidya K.9745705259 and Krishnanunni. 9495845539"
+            ],
+            "contextFilter": "techHeadDept",
+            "contextCheck": "techHeadDept"
+        },
+        {
+            "tag": "cen",
+            "patterns": [
+                "Who are the cen tech heads?",
+                "Who are the computational engineering and networking tech heads?",
+                "cen"
+            ],
+            "responses": [
+                "Heads: Vivek Vinayan. 8618567972 and Shalini K. 9108795710"
+            ],
+            "contextFilter": "techHeadDept",
+            "contextCheck": "techHeadDept"
+        },
+        {
+            "tag": "cyberSecurity",
+            "patterns": [
+                "Who are the cyber security tech heads?",
+                "Who are the cyber sec tech heads?",
+                "cyber sec",
+                "cyber security"
+            ],
+            "responses": [
+                "Heads: Krishna. 9400129815 and Manasa Sidhardhan. 8939680544"
+            ],
+            "contextFilter": "techHeadDept",
+            "contextCheck": "techHeadDept"
+        },
+        {
+            "tag": "msw",
+            "patterns": [
+                "Who are the social work tech heads?",
+                "Who are the masters in social work heads?",
+                "social work",
+                "msw"
+            ],
+            "responses": [
+                "Heads: Jishnu Pawan K. 9495930102 and Anwesha Roy. 9871274329"
+            ],
+            "contextFilter": "techHeadDept",
+            "contextCheck": "techHeadDept"
+        },
+        {
+            "tag": "maths",
+            "patterns": [
+                "Who are the maths tech heads?",
+                "Who are the math heads?",
+                "math"
+            ],
+            "responses": [
+                "Heads: K.V.S  Sai Kashyap. 9566560186 and Kondemudi Chandramouli. 9790419963 Co-Heads: Chava Meghana. 9003803863 and Thalla Laxmi Thylokya. 9003863739"
+            ],
+            "contextFilter": "techHeadDept",
+            "contextCheck": "techHeadDept"
+        },
+        {
+            "tag": "science",
+            "patterns": [
+                "Who are the sciences tech heads?",
+                "Who are the science heads?",
+                "science"
+            ],
+            "responses": [
+                "Heads: Anupama Sujatha. 9490983688 and Oviya Mohan. 7200860205"
+            ],
+            "contextFilter": "techHeadDept",
+            "contextCheck": "techHeadDept"
+        },
+        {
+            "tag": "registerDate",
+            "patterns": [
+                "today",
+                "tomorrow",
+                "on",
+                "day after tomorrow"
+            ],
+            "responses": [
+                "Woops, looks like registrations aren't open. Please wait"
+            ],
+            "contextFilter": "date"
         },
         {
             "tag": "food",
@@ -141,9 +363,8 @@
                 "Tell me more about food"
             ],
             "responses": [
-                "We have food from a lot of places",
-                "We have food from famous places!",
-                "The food is going to be great, you don't have to worry"
+                "We have the most delicious vegetarian food from all over the place.",
+                "Your taste buds will be in a state of trance once you get a taste of our food!"
             ]
         },
         {
@@ -152,12 +373,11 @@
                 "What is anokha?",
                 "Anokha?",
                 "When is Anokha",
-                "Tell me about Anokha"
+                "Tell me about Anokha",
+                "Can you tell me about anokha"
             ],
             "responses": [
-                "Anokha is a tech fest at Amrita",
-                "Anokha is one of India's biggest tech fests!",
-                "It is a 3 day festival"
+                "Anokha is an amazing tech fest conducted at Amrita University. It goes on for three days February 23, 24 and 25."
             ]
         },
         {
@@ -175,7 +395,6 @@
                 "fucker",
                 "asshole",
                 "ass",
-                "bitch ass cunt",
                 "shit"
             ],
             "responses": [
@@ -198,7 +417,9 @@
                 "fuck me",
                 "give me a bj",
                 "give me a blow job",
-                "give me a rim job"
+                "give me a rim job",
+                "Wanna bang?",
+                "Will you bang me?"
             ],
             "responses": [
                 "I have a boyfriend"
@@ -214,7 +435,8 @@
                 "Coimbatore",
                 "Which Amrita",
                 "Which campus",
-                "What campus"
+                "What campus",
+                "where is anokha conducted"
             ],
             "responses": [
                 "Anokha is conducted at Amrita University Coimbatore"
