@@ -62,7 +62,7 @@ def train():
 
     model = tflearn.DNN(net, tensorboard_dir='data/tflearn_logs')
 
-    model.fit(trainingDataX, trainingDataY, n_epoch=1000, batch_size=8, show_metric=True)
+    model.fit(trainingDataX, trainingDataY, n_epoch=250, batch_size=8, show_metric=True)
     model.save('data/model/model.tflearn')
 
     pickle.dump({'words': words, 'classes': tags, 'trainX': trainingDataX, 'trainY': trainingDataY}, open("data/trainingData", "wb"))
