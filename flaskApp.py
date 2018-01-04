@@ -16,4 +16,4 @@ api.add_resource(getResponse, '/getResponse/<query>')
 
 
 if __name__ == '__main__':
-     app.run(port=5003)
+     app.run(port=3128)
