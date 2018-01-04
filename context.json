@@ -296,11 +296,12 @@
                 "who's managing lumiere",
                 "who is incharge of lumiere",
                 "who are the heads of lumiere",
-                "lumiere"
+                "lumiere",
+                "what is lumiere"
                 
             ],
             "responses": [
-                "Contact the\nHeads:\nAswath K R: 9790298294\n\nCo-Heads:\nAdithya Bharadwaj U: 9841952309\nYashank Fomra R: 9677987208"
+                "I'm not allowed to tell you who's going to speak during lumiere. Ask me after sometime, i'll let you know. Contact the\nHeads:\nAswath K R: 9790298294\n\nCo-Heads:\nAdithya Bharadwaj U: 9841952309\nYashank Fomra R: 9677987208"
             ]
         },
         {
@@ -354,7 +355,24 @@
                 
             ],
             "responses": [
-                "As of right now, I don't know but you can contact these people for more information.\n\nK Sai Sankar Krishna Teja: 9566893390\nK Rithin Paul Reddy: 8870394131"
+                "As of right now I can't determine what all workshops are there."
+            ]
+        },
+        {
+            "tag": "funStall",
+            "patterns": [
+                "Who are the heads of fun and tech stalls",
+                "who's incharge of fun stalls",
+                "tech stalls",
+                "fun tech stalls",
+                "fun stalls",
+                "exhibitions",
+                "what all exchibitions are there"
+
+                
+            ],
+            "responses": [
+                "The final list of fun and tech stalls and exhibitions will be available later. Contact\nHeads:\nK Sai Sankar Krishna Teja: 9566893390\nK Rithin Paul Reddy: 8870394131"
             ]
         },
         {
@@ -640,7 +658,7 @@
                 "Can you tell me about anokha"
             ],
             "responses": [
-                "Anokha is an amazing tech fest conducted at Amrita University. It goes on for three days February 22, 23 and 24."
+                "Anokha is an amazing tech fest conducted at Amrita University. It goes on for three days February 22, 23 and 24. Contact \n\nHead"
             ]
         },
         {
