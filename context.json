@@ -127,7 +127,7 @@
                 "who's rahul nambiyar"
             ],
             "responses": [
-                "Do you know that there exists something called google"
+                "If you have data to text me, I'm pretty sure you have enough data to google it yourself"
             ]
         },
         {
@@ -141,7 +141,7 @@
                 "tell me about alap raju"
             ],
             "responses": [
-                "Do you know that there exists something called google"
+                "If you have data to text me, I'm pretty sure you have enough data to google it yourself"
             ]
         },
         {
@@ -152,7 +152,7 @@
                 "who's sunitha sarathy"
             ],
             "responses": [
-                "Do you know that there exists something called google"
+                "If you have data to text me, I'm pretty sure you have enough data to google it yourself"
             ]
         },
         {
@@ -229,9 +229,9 @@
                 "Are the registrations open?"
             ],
             "responses": [
-                "When do you want to register?"
-            ],
-            "contextSet": "date"
+                "Woops, looks like registrations aren't open yet. Contact the heads please.\n\nHeads:\nDevika P Nair: 944715001\nSethupathy M: 9842099011\n\nCo-Heads: G Sai Swaroop: 9494673183\nBargavi S: 8870371992\nAshwin A: 9442398156\nSai Vihari : 9063064798"
+
+            ]
         },
         {
             "tag": "registerDate",
