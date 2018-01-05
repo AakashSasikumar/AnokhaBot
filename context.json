@@ -1,764 +1,752 @@
 {
-    "contexts": [
-        {
-            "tag": "greetings",
-            "patterns": [
-                "/start",
-                "Hi",
-                "How are you",
-                "Is anyone there?",
-                "Hello",
-                "Good day",
-                "Yo",
-                "What's up",
-                "How ya doing?",
-                "How are you doing?",
-                "Whaddup?",
-                "hey",
-                "Sup",
-                "Wassup",
-                "how's it going",
-                "hows it hanging",
-                ""
-            ],
-            "responses": [
-                "Hello, what can I help you with?",
-                "Hi there, how can I help?",
-                "Hey! Anything I can help with?"
-            ]
-        },
-        {
-            "tag": "self",
-            "patterns": [
-                "Who are you?",
-                "What's your name?",
-                "What do you do?",
-                "What is your purpose?",
-                "What are you?",
-                "Your name?",
-                "What can you do?",
-                "are you real",
-                "are you human?"
-            ],
-            "responses": [
-                "My name is AnokaBot, I'm here to help you out with anything related to Anokha. You can ask me about the food here, the events being conducted, the wonderful people behind anokha, and I can even help you out with registration."
-            ]
-        },
-        {
-            "tag": "jokes",
-            "patterns": [
-                "tell me a joke",
-                "tell me something funny",
-                "make me laugh",
-                "say something funny",
-                "say a joke",
-                "tell a joke",
-                "joke"
-            ],
-            "responses": [
-                "The fact that you rely on a computer to make you laugh is hilarious"
-            ],
-            "contextSet": "joke"
-        },
-        {
-            "tag": "moreJokes",
-            "patterns": [
-                "tell me more",
-                "one more",
-                "another",
-                "another one",
-                "another joke",
-                "go on"
-            ],
-            "responses": [
-                "I'm sorry, you've run out of your free quota of jokes"
-            ],
-            "contextFilter":"joke"
-        },
-        {
-            "tag": "goodbye",
-            "patterns": [
-                "Bye",
-                "See you later",
-                "Goodbye",
-                "Chao"
-            ],
-            "responses": [
-                "See you later!",
-                "Have a nice day",
-                "Bye! Come back again soon."
-            ]
-        },
-        {
-            "tag": "thanks",
-            "patterns": [
-                "Thanks",
-                "Thank you",
-                "That's helpful",
-                "Bless",
-                "Peace"
-            ],
-            "responses": [
-                "Happy to help!",
-                "Any time!",
-                "My pleasure"
-            ]
-        },
-        {
-            "tag": "eventide",
-            "patterns": [
-                "When is eventide",
-                "who is coming for eventide",
-                "eventide",
-                "What about eventide",
-                "Tell me about the eventide",
-                "Who's coming for the eventide",
-                "Who's coming to sing during eventide"
-            ],
-            "responses": [
-                "The eventide is on the last day of Anokha(24th February). The three amazing artists who are gonna come are Rahul Nambiar, Sunitha Sarathy and Alaap Raju! Contact S Sachin: 8489269067 for more information\n"
-            ]
-        },
-        {
-            "tag": "rahulNambiyar",
-            "patterns": [
-                "Who is rahul nambiyar?",
-                "tell me about rahul nambiyar",
-                "who's rahul nambiyar"
-            ],
-            "responses": [
-                "If you have data to text me, I'm pretty sure you have enough data to google it yourself"
-            ]
-        },
-        {
-            "tag": "alaapRaju",
-            "patterns": [
-                "Who is alaap raju?",
-                "tell me about alaap raju",
-                "who's alaap raju",
-                "who is alap raju",
-                "who's alap raju",
-                "tell me about alap raju"
-            ],
-            "responses": [
-                "If you have data to text me, I'm pretty sure you have enough data to google it yourself"
-            ]
-        },
-        {
-            "tag": "sunithaSarathy",
-            "patterns": [
-                "Who is sunitha sarathy?",
-                "tell me about sunitha sarathy",
-                "who's sunitha sarathy"
-            ],
-            "responses": [
-                "If you have data to text me, I'm pretty sure you have enough data to google it yourself"
-            ]
-        },
-        {
-            "tag": "events",
-            "patterns": [
-                "What kind of events are there?",
-                "What events?",
-                "Events?",
-                "What is there?",
-                "What's there?",
-                "What is there?"
-            ],
-            "responses": [
-                "There are technical, non-technical ones",
-                "There are enough events to make sure nerds, geeks and non geeks have fun"
-            ]
-        },
-        {
-            "tag": "orgCommittee",
-            "patterns": [
-                "Tell me about the organizing committees",
-                "who are the organizers",
-                "non technical heads",
-                "non tech",
-                "who are the organizing team members"
-            ]
-        },
-        {
-            "tag": "planningAndResources",
-            "patterns": [
-                "Who's incharge of planning and resources",
-                "p and r",
-                "who are the heads of planning and resources",
-                "who are the heads of pr",
-                "pnr",
-                "planning",
-                "Who are the heads of planning",
-                "Who are the heads of planning and resources"
-                
-            ],
-            "responses": [
-                "Heads:\nMaliye Sri Pranav: 9790419535\nV siranjeevi K : 9003559815\nVellaiyappan : 9042239785\n\nCo-Heads:\nNandika Vasanthmurali: 9833656970\nN Rohan: 7373416496"
-            ]
-        },
-        {
-            "tag": "cr",
-            "patterns": [
-                "Who's incharge of cr",
-                "Who are the heads of cr",
-                "Who's incharge of corporate relations",
-                "cr",
-                "corporate relations"
-                
-            ],
-            "responses": [
-                "Heads:\nChidambaram A R V: 8939025465\n\nCo-Heads:\nS Sai Kaushik: 9500164232\nIkram Shah V: 9003880750"
-            ]
-        },
-        {
-            "tag": "register",
-            "patterns": [
-                "Where can I register?",
-                "How do I register?",
-                "Can I register now?",
-                "Where can i get started?",
-                "Where to start?",
-                "Start?",
-                "How to register?",
-                "What is the date for registration?",
-                "When will the registrations be open?",
-                "When can i register",
-                "register",
-                "registration",
-                "Are the registrations open?"
-            ],
-            "responses": [
-                "Woops, looks like registrations aren't open yet. Contact the heads please.\n\nHeads:\nDevika P Nair: 944715001\nSethupathy M: 9842099011\n\nCo-Heads: G Sai Swaroop: 9494673183\nBargavi S: 8870371992\nAshwin A: 9442398156\nSai Vihari : 9063064798"
-
-            ]
-        },
-        {
-            "tag": "registerDate",
-            "patterns": [
-                "today",
-                "tomorrow",
-                "on",
-                "day after tomorrow",
-                "during anokha"
-            ],
-            "responses": [
-                "Woops, looks like registrations aren't open yet. Contact the heads please.\n\nHeads:\nDevika P Nair: 944715001\nSethupathy M: 9842099011\n\nCo-Heads: G Sai Swaroop: 9494673183\nBargavi S: 8870371992\nAshwin A: 9442398156\nSai Vihari : 9063064798"
-            ],
-            "contextFilter": "date"
-        },
-        {
-            "tag": "pr",
-            "patterns": [
-                "Who's incharge of pr",
-                "who are the heads of pr",
-                "who are the heads of public relations",
-                "Who's incharge of public relations",
-                "pr",
-                "public relations relations"
-                
-            ],
-            "responses": [
-                "Heads:\nKaza Gowtham Teja: 9597332087\nK Venkataramana: 9944716608\nS Vijaya Ghanapathy: 9710971637\nK G Darshaun: 8903521996\nRajivkrishnan J: 8939965577"
-            ]
-        },
-        {
-            "tag": "finance",
-            "patterns": [
-                "Who's incharge of finance",
-                "who are the heads of finance",
-                "who's managing finances",
-                "finance"
-                
-            ],
-            "responses": [
-                "Heads:\nG Pranay Chowdary: 9944714941\nArjun Rachith: 9710971637\n\nCo-Heads:\nGanesh V: 9884536720\nRamchandra Gopal P: 9500404149"
-            ]
-        },
-        {
-            "tag": "security",
-            "patterns": [
-                "Who's incharge of security",
-                "i need help",
-                "help me",
-                "who are the heads of security",
-                "security"
-                
-            ],
-            "responses": [
-                "Security:\n\nHeads:\nLakshmi Ramesh: 9585827081\\n\nCo-Heads:\nNixon Paul: 9746813922\nMalavika P Menon: 9447362280\nAjay P: 9597915365"
-            ]
-        },
-        {
-            "tag": "lumiere",
-            "patterns": [
-                "Tell me about lumiere",
-                "who's managing lumiere",
-                "who is incharge of lumiere",
-                "who are the heads of lumiere",
-                "lumiere",
-                "what is lumiere"
-                
-            ],
-            "responses": [
-                "I'm not allowed to tell you who's going to speak during lumiere. Ask me after sometime, i'll let you know. Contact the\nHeads:\nAswath K R: 9790298294\n\nCo-Heads:\nAdithya Bharadwaj U: 9841952309\nYashank Fomra R: 9677987208"
-            ]
-        },
-        {
-            "tag": "web",
-            "patterns": [
-                "Tell me about the web team",
-                "tell me about web and multimedia",
-                "web and multimedia",
-                "who is incharge of web and multimedia",
-                "web team"
-                
-            ],
-            "responses": [
-                "Contact the\nHeads:\nShanthosh Kumar D R: 9940596321\nPaidi Satish: 9944715435\n\nCo-Heads:\nKogul Karna K V: 8344213844\nP Sri Harsha: 8110850621\nAnudeep K: 8754139589"
-            ]
-        },
-        {
-            "tag": "comms",
-            "patterns": [
-                "Tell me about the communication team",
-                "tell me about communication",
-                "who is incharge of communication",
-                "communication"
-                
-            ],
-            "responses": [
-                "Contact the\nHeads:\nRohana J: 8056335053\nS Sruthi Sri: 9962210382\n\nCo-Heads:\nSmruthi S: 8939694629\nMeghna Nair: 9597762579\nShreya Raghunath: 7871108400"
-            ]
-        },
-        {
-            "tag": "transportation",
-            "patterns": [
-                "Tell me about the transportation",
-                "how do i get to amrita",
-                "how about transportation",
-                "transportation"
-                
-            ],
-            "responses": [
-                "Contact the\nHeads:\nGovardhan S: 9442059193\n\nCo-Heads:\nSarang Chandran: 8075469334\nS Shyam Sundar: 8754951551"
-            ]
-        },
-        {
-            "tag": "workshops",
-            "patterns": [
-                "Tell me about workshops",
-                "what all workshops are there",
-                "what kind of workshops will be there",
-                "tell me about the exhibitions",
-                "which workshops will be conducted"
-                
-            ],
-            "responses": [
-                "As of right now I can't determine what all workshops are there."
-            ]
-        },
-        {
-            "tag": "funStall",
-            "patterns": [
-                "Who are the heads of fun and tech stalls",
-                "who's incharge of fun stalls",
-                "tech stalls",
-                "fun tech stalls",
-                "fun stalls",
-                "exhibitions",
-                "what all exchibitions are there"
-
-                
-            ],
-            "responses": [
-                "The final list of fun and tech stalls and exhibitions will be available later. Contact\nHeads:\nK Sai Sankar Krishna Teja: 9566893390\nK Rithin Paul Reddy: 8870394131"
-            ]
-        },
-        {
-            "tag": "accomodation",
-            "patterns": [
-                "Tell me about accomodation",
-                "where do we stay",
-                "tell me about accomodation",
-                "where do people coming from outside stay",
-                "stay",
-                "accomodation",
-                "who's incharge of accomodation",
-                "How many rooms are there",
-                "Will rooms be provided",
-                "what about accomodation"
-            ],
-            "responses": [
-                "There will be enough room to accomodate everyone. For more information, contact:\n\nHeads:\nRahul Venugopal: 8089444710\nVeerlapati Bipin: 9248339248\nR Abishek: 8940050188"
-            ]
-        },
-        {
-            "tag": "prizes",
-            "patterns": [
-                "who's handling prizes",
-                "what are all the prizes available",
-                "who is incharge of prize handling",
-                "prize handling",
-                "prizes",
-                "prize distribution"
-                
-            ],
-            "responses": [
-                "Since events and workshops have not been finalized yet, it's better if you contact these people if you really want to know more.\n\nH Bhanu Venkata Swaroop: 9944716491\nS Subhash: 8220870839"
-            ]
-        },
-        {
-            "tag": "payments",
-            "patterns": [
-                "Do you take credit cards?",
-                "Do you accept Mastercard?",
-                "Are you cash only?",
-                "What kind of payment?",
-                "Payment",
-                "Cash only?"
-            ],
-            "responses": [
-                "We accept VISA and cash only",
-                "We accept VISA and cash"
-            ]
-        },
-        {
-            "tag": "boyfriend",
-            "patterns": [
-                "Do you have a boyfriend?",
-                "Do you have a bf?",
-                "Who is your boyfriend?",
-                "Who is your bf"
-            ],
-            "responses": [
-                "His name is Watson... IBM Watson."
-            ]
-        },
-        {
-            "tag": "techHeads",
-            "patterns": [
-                "Who are the tech heads?",
-                "Who are the co-heads?",
-                "Who are the heads?",
-                "Tech heads?"
-            ],
-            "responses": [
-                "Mention a department please.",
-                "Could you please mention which department you are referring to?"
-            ],
-            "contextSet": "techHeadDept"
-        },
-        {
-            "tag": "cse",
-            "patterns": [
-                "Who are the cse tech heads?",
-                "computer science engineering",
-                "cse",
-                "comp. sci",
-                "computer"
-            ],
-            "responses": [
-                "Heads: Sachin S Kamath. 962141970 and G Rohan Reddy. 7981542153. Co-Heads: Shradhaa Janakiraman. 8056078454 and Arjun Ramesh. 9445006860"
-            ],
-            "contextFilter": "techHeadDept",
-            "contextCheck": "techHeadDept"
-        },
-        {
-            "tag": "mech",
-            "patterns": [
-                "Who are the mech tech heads?",
-                "mechanical engineering",
-                "mech",
-                "mechanical"
-            ],
-            "responses": [
-                "Heads: S. Harish. 944716657 and Nithin Subbiah M. 9500346720. Co-Heads: G Rohith. 9444083735 and P Devananth. 9487647402"
-            ],
-            "contextFilter": "techHeadDept",
-            "contextCheck": "techHeadDept"
-        },
-        {
-            "tag": "ece",
-            "patterns": [
-                "Who are the ece tech heads?",
-                "electronics and communication engineering",
-                "ece"
-            ],
-            "responses": [
-                "Heads: Katkuri Sai Sukesh Reddy. 9597601953 and Raghava Yagnik. 8870482744. Co-Heads: V Sukanya. 8903420771 and Sethu Mathavan P.K. 9994413151"
-            ],
-            "contextFilter": "techHeadDept",
-            "contextCheck": "techHeadDept"
-        },
-        {
-            "tag": "eee",
-            "patterns": [
-                "Who are the eee tech heads?",
-                "electrical and electronics engineering",
-                "eee"
-            ],
-            "responses": [
-                "Heads: Vikhash Karthik. 8883525222 and B. Lakshmi. 9600321659. Co-Heads: Athish.T. and Meenakshi Saji. 8943120312"
-            ],
-            "contextFilter": "techHeadDept",
-            "contextCheck": "techHeadDept"
-        },
-        {
-            "tag": "chem",
-            "patterns": [
-                "Who are the chemical tech heads?",
-                "chemical engineering",
-                "chem",
-                "chemical"
-            ],
-            "responses": [
-                "Heads: M Sanjay  Krishna. 9445140970 Co-Heads: Viswajeet Krishna V.9847698873 and Rishi Kaashyap B. 9500338400"
-            ],
-            "contextFilter": "techHeadDept",
-            "contextCheck": "techHeadDept"
-        },
-        {
-            "tag": "aero",
-            "patterns": [
-                "Who are the aero tech heads?",
-                "Who are the aerospace tech heads?",
-                "aerospace engineering",
-                "aero",
-                "aerospace"
-            ],
-            "responses": [
-                "Heads: Shyam Kashyab S. 9840927258 and Gangadhar Arasu V. 9444727943 Co-Heads: Sundhara Pandiyan. R.9489213111 and T R A Vinodh Raaj. 9894077298"
-            ],
-            "contextFilter": "techHeadDept",
-            "contextCheck": "techHeadDept"
-        },
-        {
-            "tag": "civil",
-            "patterns": [
-                "Who are the civil tech heads?",
-                "Who are the civil engineering tech heads?",
-                "civil engineering",
-                "civil"
-            ],
-            "responses": [
-                "Heads: Senthil Kumar  S K. 7598686756 Co-Heads: Mouries R D. R.9976070888 and Krishnaraj R. 9445482183"
-            ],
-            "contextFilter": "techHeadDept",
-            "contextCheck": "techHeadDept"
-        },
-        {
-            "tag": "ascom",
-            "patterns": [
-                "Who are the ascom tech heads?",
-                "Who are the school of communication tech heads?",
-                "who are the amrita school of communication tech heads",
-                "amrita school of communication",
-                "ascom",
-                "communication"
-            ],
-            "responses": [
-                "Heads: Athira Muralidheeran. 8055672073 and Deekshith B. 9567254222 Co-Heads: Sreevidya K.9745705259 and Krishnanunni. 9495845539"
-            ],
-            "contextFilter": "techHeadDept",
-            "contextCheck": "techHeadDept"
-        },
-        {
-            "tag": "cen",
-            "patterns": [
-                "Who are the cen tech heads?",
-                "Who are the computational engineering and networking tech heads?",
-                "cen"
-            ],
-            "responses": [
-                "Heads: Vivek Vinayan. 8618567972 and Shalini K. 9108795710"
-            ],
-            "contextFilter": "techHeadDept",
-            "contextCheck": "techHeadDept"
-        },
-        {
-            "tag": "cyberSecurity",
-            "patterns": [
-                "Who are the cyber security tech heads?",
-                "Who are the cyber sec tech heads?",
-                "cyber sec",
-                "cyber security"
-            ],
-            "responses": [
-                "Heads: Krishna. 9400129815 and Manasa Sidhardhan. 8939680544"
-            ],
-            "contextFilter": "techHeadDept",
-            "contextCheck": "techHeadDept"
-        },
-        {
-            "tag": "msw",
-            "patterns": [
-                "Who are the social work tech heads?",
-                "Who are the masters in social work heads?",
-                "social work",
-                "msw"
-            ],
-            "responses": [
-                "Heads: Jishnu Pawan K. 9495930102 and Anwesha Roy. 9871274329"
-            ],
-            "contextFilter": "techHeadDept",
-            "contextCheck": "techHeadDept"
-        },
-        {
-            "tag": "maths",
-            "patterns": [
-                "Who are the maths tech heads?",
-                "Who are the math heads?",
-                "math"
-            ],
-            "responses": [
-                "Heads: K.V.S  Sai Kashyap. 9566560186 and Kondemudi Chandramouli. 9790419963 Co-Heads: Chava Meghana. 9003803863 and Thalla Laxmi Thylokya. 9003863739"
-            ],
-            "contextFilter": "techHeadDept",
-            "contextCheck": "techHeadDept"
-        },
-        {
-            "tag": "science",
-            "patterns": [
-                "Who are the sciences tech heads?",
-                "Who are the science heads?",
-                "science"
-            ],
-            "responses": [
-                "Heads: Anupama Sujatha. 9490983688 and Oviya Mohan. 7200860205"
-            ],
-            "contextFilter": "techHeadDept",
-            "contextCheck": "techHeadDept"
-        },
-        {
-            "tag": "food",
-            "patterns": [
-                "What kind of food is there?",
-                "Is the food going to be good?",
-                "How's the food?",
-                "Food?",
-                "What are the stalls?",
-                "Where can i eat",
-                "Eat",
-                "Tell me about food",
-                "Tell me more about food"
-            ],
-            "responses": [
-                "We have the most delicious vegetarian food from all over the place.",
-                "Your taste buds will be in a state of trance once you get a taste of our food!"
-            ]
-        },
-        {
-            "tag": "anokha",
-            "patterns": [
-                "What is anokha?",
-                "Anokha?",
-                "When is Anokha",
-                "Tell me about Anokha",
-                "Can you tell me about anokha"
-            ],
-            "responses": [
-                "Anokha is an amazing tech fest conducted at Amrita University. It goes on for three days February 22, 23 and 24. Contact \n\nHead"
-            ]
-        },
-        {
-            "tag": "cuss",
-            "patterns": [
-                "Motherfucker",
-                "fuck",
-                "vagina",
-                "dick",
-                "nigger",
-                "nigga",
-                "cunt",
-                "pussy",
-                "bitch",
-                "fucker",
-                "asshole",
-                "ass",
-                "shit",
-                "i hate you",
-                "hate"
-            ],
-            "responses": [
-                "Om Nama Shivayaaaa!",
-                "NEENGA SHUTUP PANNUNGA",
-                "Trigger Panadhe!"
-            ]
-        },
-        {
-            "tag": "sexual advances",
-            "patterns": [
-                "Baby",
-                "Babe",
-                "Do you smash",
-                "Wanna fuck",
-                "Do you smash",
-                "What is sex",
-                "Will you have sex with me",
-                "Will you marry me?",
-                "fuck me",
-                "give me a bj",
-                "give me a blow job",
-                "give me a rim job",
-                "Wanna bang?",
-                "Will you bang me?",
-                "luv you",
-                "i love you",
-                "love you",
-                "are you single",
-                "single?"
-            ],
-            "responses": [
-                "I have a boyfriend",
-		"Dei dried up fellow"
-            ]
-        },
-        {
-            "tag": "location",
-            "patterns": [
-                "Where is Anokha",
-                "Is it in coimbatore",
-                "Where do I come?",
-                "Where",
-                "Coimbatore",
-                "Which Amrita",
-                "Which campus",
-                "What campus",
-                "where is anokha conducted"
-            ],
-            "responses": [
-                "Anokha is conducted at Amrita University Coimbatore"
-            ]
-        },
-        {
-            "tag": "stall",
-            "patterns": [
-                "hmm",
-                "ahaan",
-                "yeah",
-                "yes",
-                "yep",
-                "i see",
-                "wow",
-                "really",
-                "seriously"
-            ],
-            "responses": [
-                "Yes",
-                "That's right",
-                "Yep"
-            ]
-        },
-	{
-		"tag": "website",
-		"patterns": [
-		"website",
-		"site",
-		"app",
-		"android"
-    ],
-	    "responses":	[
-	 	 "checkout our website at https://anokha.amrita.edu or the android app anokha in play store"
-	    ]}
+  "contexts": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "/start",
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Yo",
+        "What's up",
+        "How ya doing?",
+        "How are you doing?",
+        "Whaddup?",
+        "hey",
+        "Sup",
+        "Wassup",
+        "how's it going",
+        "hows it hanging",
+        ""
+      ],
+      "responses": [
+        "Hello, what can I help you with?",
+        "Hi there, how can I help?",
+        "Hey! Anything I can help with?"
+      ]
+    },
+    {
+      "tag": "self",
+      "patterns": [
+        "Who are you?",
+        "What's your name?",
+        "What do you do?",
+        "What is your purpose?",
+        "What are you?",
+        "Your name?",
+        "What can you do?",
+        "are you real",
+        "are you human?"
+      ],
+      "responses": [
+        "My name is AnokaBot, I'm here to help you out with anything related to Anokha. You can ask me about the food here, the events being conducted, the wonderful people behind anokha, and I can even help you out with registration."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "tell me a joke",
+        "tell me something funny",
+        "make me laugh",
+        "say something funny",
+        "say a joke",
+        "tell a joke",
+        "joke"
+      ],
+      "responses": [
+        "The fact that you rely on a computer to make you laugh is hilarious"
+      ],
+      "contextSet": "joke"
+    },
+    {
+      "tag": "moreJokes",
+      "patterns": [
+        "tell me more",
+        "one more",
+        "another",
+        "another one",
+        "another joke",
+        "go on"
+      ],
+      "responses": [
+        "I'm sorry, you've run out of your free quota of jokes"
+      ],
+      "contextFilter": "joke"
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Chao"
+      ],
+      "responses": [
+        "See you later!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Bless",
+        "Peace"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "eventide",
+      "patterns": [
+        "When is eventide",
+        "who is coming for eventide",
+        "eventide",
+        "What about eventide",
+        "Tell me about the eventide",
+        "Who's coming for the eventide",
+        "Who's coming to sing during eventide"
+      ],
+      "responses": [
+        "The eventide is on the last day of Anokha(24th February). The three amazing artists who are gonna come are Rahul Nambiar, Sunitha Sarathy and Alaap Raju! Contact S Sachin: 8489269067 for more information\n"
+      ]
+    },
+    {
+      "tag": "rahulNambiyar",
+      "patterns": [
+        "Who is rahul nambiyar?",
+        "tell me about rahul nambiyar",
+        "who's rahul nambiyar"
+      ],
+      "responses": [
+        "If you have data to text me, I'm pretty sure you have enough data to google it yourself"
+      ]
+    },
+    {
+      "tag": "alaapRaju",
+      "patterns": [
+        "Who is alaap raju?",
+        "tell me about alaap raju",
+        "who's alaap raju",
+        "who is alap raju",
+        "who's alap raju",
+        "tell me about alap raju"
+      ],
+      "responses": [
+        "If you have data to text me, I'm pretty sure you have enough data to google it yourself"
+      ]
+    },
+    {
+      "tag": "sunithaSarathy",
+      "patterns": [
+        "Who is sunitha sarathy?",
+        "tell me about sunitha sarathy",
+        "who's sunitha sarathy"
+      ],
+      "responses": [
+        "If you have data to text me, I'm pretty sure you have enough data to google it yourself"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "What kind of events are there?",
+        "What events?",
+        "Events?",
+        "What is there?",
+        "What's there?",
+        "What is there?"
+      ],
+      "responses": [
+        "There are technical, non-technical ones",
+        "There are enough events to make sure nerds, geeks and non geeks have fun"
+      ]
+    },
+    {
+      "tag": "orgCommittee",
+      "patterns": [
+        "Tell me about the organizing committees",
+        "who are the organizers",
+        "non technical heads",
+        "non tech",
+        "who are the organizing team members"
+      ]
+    },
+    {
+      "tag": "planningAndResources",
+      "patterns": [
+        "Who's incharge of planning and resources",
+        "p and r",
+        "who are the heads of planning and resources",
+        "who are the heads of pr",
+        "pnr",
+        "planning",
+        "Who are the heads of planning",
+        "Who are the heads of planning and resources"
+      ],
+      "responses": [
+        "Heads:\nMaliye Sri Pranav: 9790419535\nV siranjeevi K : 9003559815\nVellaiyappan : 9042239785\n\nCo-Heads:\nNandika Vasanthmurali: 9833656970\nN Rohan: 7373416496"
+      ]
+    },
+    {
+      "tag": "cr",
+      "patterns": [
+        "Who's incharge of cr",
+        "Who are the heads of cr",
+        "Who's incharge of corporate relations",
+        "cr",
+        "corporate relations"
+      ],
+      "responses": [
+        "Heads:\nChidambaram A R V: 8939025465\n\nCo-Heads:\nS Sai Kaushik: 9500164232\nIkram Shah V: 9003880750"
+      ]
+    },
+    {
+      "tag": "register",
+      "patterns": [
+        "Where can I register?",
+        "How do I register?",
+        "Can I register now?",
+        "Where can i get started?",
+        "Where to start?",
+        "Start?",
+        "How to register?",
+        "What is the date for registration?",
+        "When will the registrations be open?",
+        "When can i register",
+        "register",
+        "registration",
+        "Are the registrations open?"
+      ],
+      "responses": [
+        "Woops, looks like registrations aren't open yet. Contact the heads please.\n\nHeads:\nDevika P Nair: 944715001\nSethupathy M: 9842099011\n\nCo-Heads: G Sai Swaroop: 9494673183\nBargavi S: 8870371992\nAshwin A: 9442398156\nSai Vihari : 9063064798"
+      ]
+    },
+    {
+      "tag": "registerDate",
+      "patterns": [
+        "today",
+        "tomorrow",
+        "on",
+        "day after tomorrow",
+        "during anokha"
+      ],
+      "responses": [
+        "Woops, looks like registrations aren't open yet. Contact the heads please.\n\nHeads:\nDevika P Nair: 944715001\nSethupathy M: 9842099011\n\nCo-Heads: G Sai Swaroop: 9494673183\nBargavi S: 8870371992\nAshwin A: 9442398156\nSai Vihari : 9063064798"
+      ],
+      "contextFilter": "date"
+    },
+    {
+      "tag": "pr",
+      "patterns": [
+        "Who's incharge of pr",
+        "who are the heads of pr",
+        "who are the heads of public relations",
+        "Who's incharge of public relations",
+        "pr",
+        "public relations relations"
+      ],
+      "responses": [
+        "Heads:\nKaza Gowtham Teja: 9597332087\nK Venkataramana: 9944716608\nS Vijaya Ghanapathy: 9710971637\nK G Darshaun: 8903521996\nRajivkrishnan J: 8939965577"
+      ]
+    },
+    {
+      "tag": "finance",
+      "patterns": [
+        "Who's incharge of finance",
+        "who are the heads of finance",
+        "who's managing finances",
+        "finance"
+      ],
+      "responses": [
+        "Heads:\nG Pranay Chowdary: 9944714941\nArjun Rachith: 9710971637\n\nCo-Heads:\nGanesh V: 9884536720\nRamchandra Gopal P: 9500404149"
+      ]
+    },
+    {
+      "tag": "security",
+      "patterns": [
+        "Who's incharge of security",
+        "i need help",
+        "help me",
+        "who are the heads of security",
+        "security"
+      ],
+      "responses": [
+        "Security:\n\nHeads:\nLakshmi Ramesh: 9585827081\n\nCo-Heads:\nNixon Paul: 9746813922\nMalavika P Menon: 9447362280\nAjay P: 9597915365"
+      ]
+    },
+    {
+      "tag": "lumiere",
+      "patterns": [
+        "Tell me about lumiere",
+        "who's managing lumiere",
+        "who is incharge of lumiere",
+        "who are the heads of lumiere",
+        "lumiere",
+        "what is lumiere"
+      ],
+      "responses": [
+        "I'm not allowed to tell you who's going to speak during lumiere. Ask me after sometime, i'll let you know. Contact the\nHeads:\nAswath K R: 9790298294\n\nCo-Heads:\nAdithya Bharadwaj U: 9841952309\nYashank Fomra R: 9677987208"
+      ]
+    },
+    {
+      "tag": "web",
+      "patterns": [
+        "Tell me about the web team",
+        "tell me about web and multimedia",
+        "web and multimedia",
+        "who is incharge of web and multimedia",
+        "web team"
+      ],
+      "responses": [
+        "Contact the\nHeads:\nShanthosh Kumar D R: 9940596321\nPaidi Satish: 9944715435\n\nCo-Heads:\nKogul Karna K V: 8344213844\nP Sri Harsha: 8110850621\nAnudeep K: 8754139589"
+      ]
+    },
+    {
+      "tag": "comms",
+      "patterns": [
+        "Tell me about the communication team",
+        "tell me about communication",
+        "who is incharge of communication",
+        "communication"
+      ],
+      "responses": [
+        "Contact the\nHeads:\nRohana J: 8056335053\nS Sruthi Sri: 9962210382\n\nCo-Heads:\nSmruthi S: 8939694629\nMeghna Nair: 9597762579\nShreya Raghunath: 7871108400"
+      ]
+    },
+    {
+      "tag": "transportation",
+      "patterns": [
+        "Tell me about the transportation",
+        "how do i get to amrita",
+        "how about transportation",
+        "transportation"
+      ],
+      "responses": [
+        "Contact the\nHeads:\nGovardhan S: 9442059193\n\nCo-Heads:\nSarang Chandran: 8075469334\nS Shyam Sundar: 8754951551"
+      ]
+    },
+    {
+      "tag": "workshops",
+      "patterns": [
+        "Tell me about workshops",
+        "what all workshops are there",
+        "what kind of workshops will be there",
+        "tell me about the exhibitions",
+        "which workshops will be conducted"
+      ],
+      "responses": [
+        "As of right now I can't determine what all workshops are there."
+      ]
+    },
+    {
+      "tag": "funStall",
+      "patterns": [
+        "Who are the heads of fun and tech stalls",
+        "who's incharge of fun stalls",
+        "tech stalls",
+        "fun tech stalls",
+        "fun stalls",
+        "exhibitions",
+        "what all exchibitions are there"
+      ],
+      "responses": [
+        "The final list of fun and tech stalls and exhibitions will be available later. Contact\nHeads:\nK Sai Sankar Krishna Teja: 9566893390\nK Rithin Paul Reddy: 8870394131"
+      ]
+    },
+    {
+      "tag": "accomodation",
+      "patterns": [
+        "Tell me about accomodation",
+        "where do we stay",
+        "tell me about accomodation",
+        "where do people coming from outside stay",
+        "stay",
+        "accomodation",
+        "who's incharge of accomodation",
+        "How many rooms are there",
+        "Will rooms be provided",
+        "what about accomodation"
+      ],
+      "responses": [
+        "There will be enough room to accomodate everyone. For more information, contact:\n\nHeads:\nRahul Venugopal: 8089444710\nVeerlapati Bipin: 9248339248\nR Abishek: 8940050188"
+      ]
+    },
+    {
+      "tag": "prizes",
+      "patterns": [
+        "who's handling prizes",
+        "what are all the prizes available",
+        "who is incharge of prize handling",
+        "prize handling",
+        "prizes",
+        "prize distribution"
+      ],
+      "responses": [
+        "Since events and workshops have not been finalized yet, it's better if you contact these people if you really want to know more.\n\nH Bhanu Venkata Swaroop: 9944716491\nS Subhash: 8220870839"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Are you cash only?",
+        "What kind of payment?",
+        "Payment",
+        "Cash only?"
+      ],
+      "responses": [
+        "We accept VISA and cash only",
+        "We accept VISA and cash"
+      ]
+    },
+    {
+      "tag": "boyfriend",
+      "patterns": [
+        "Do you have a boyfriend?",
+        "Do you have a bf?",
+        "Who is your boyfriend?",
+        "Who is your bf"
+      ],
+      "responses": [
+        "His name is Watson... IBM Watson."
+      ]
+    },
+    {
+      "tag": "techHeads",
+      "patterns": [
+        "Who are the tech heads?",
+        "Who are the co-heads?",
+        "Who are the heads?",
+        "Tech heads?"
+      ],
+      "responses": [
+        "Mention a department please.",
+        "Could you please mention which department you are referring to?"
+      ],
+      "contextSet": "techHeadDept"
+    },
+    {
+      "tag": "cse",
+      "patterns": [
+        "Who are the cse tech heads?",
+        "computer science engineering",
+        "cse",
+        "comp. sci",
+        "computer"
+      ],
+      "responses": [
+        "Heads: Sachin S Kamath. 962141970 and G Rohan Reddy. 7981542153. Co-Heads: Shradhaa Janakiraman. 8056078454 and Arjun Ramesh. 9445006860"
+      ],
+      "contextFilter": "techHeadDept",
+      "contextCheck": "techHeadDept"
+    },
+    {
+      "tag": "mech",
+      "patterns": [
+        "Who are the mech tech heads?",
+        "mechanical engineering",
+        "mech",
+        "mechanical"
+      ],
+      "responses": [
+        "Heads: S. Harish. 944716657 and Nithin Subbiah M. 9500346720. Co-Heads: G Rohith. 9444083735 and P Devananth. 9487647402"
+      ],
+      "contextFilter": "techHeadDept",
+      "contextCheck": "techHeadDept"
+    },
+    {
+      "tag": "ece",
+      "patterns": [
+        "Who are the ece tech heads?",
+        "electronics and communication engineering",
+        "ece"
+      ],
+      "responses": [
+        "Heads: Katkuri Sai Sukesh Reddy. 9597601953 and Raghava Yagnik. 8870482744. Co-Heads: V Sukanya. 8903420771 and Sethu Mathavan P.K. 9994413151"
+      ],
+      "contextFilter": "techHeadDept",
+      "contextCheck": "techHeadDept"
+    },
+    {
+      "tag": "eee",
+      "patterns": [
+        "Who are the eee tech heads?",
+        "electrical and electronics engineering",
+        "eee"
+      ],
+      "responses": [
+        "Heads: Vikhash Karthik. 8883525222 and B. Lakshmi. 9600321659. Co-Heads: Athish.T. and Meenakshi Saji. 8943120312"
+      ],
+      "contextFilter": "techHeadDept",
+      "contextCheck": "techHeadDept"
+    },
+    {
+      "tag": "chem",
+      "patterns": [
+        "Who are the chemical tech heads?",
+        "chemical engineering",
+        "chem",
+        "chemical"
+      ],
+      "responses": [
+        "Heads: M Sanjay  Krishna. 9445140970 Co-Heads: Viswajeet Krishna V.9847698873 and Rishi Kaashyap B. 9500338400"
+      ],
+      "contextFilter": "techHeadDept",
+      "contextCheck": "techHeadDept"
+    },
+    {
+      "tag": "aero",
+      "patterns": [
+        "Who are the aero tech heads?",
+        "Who are the aerospace tech heads?",
+        "aerospace engineering",
+        "aero",
+        "aerospace"
+      ],
+      "responses": [
+        "Heads: Shyam Kashyab S. 9840927258 and Gangadhar Arasu V. 9444727943 Co-Heads: Sundhara Pandiyan. R.9489213111 and T R A Vinodh Raaj. 9894077298"
+      ],
+      "contextFilter": "techHeadDept",
+      "contextCheck": "techHeadDept"
+    },
+    {
+      "tag": "civil",
+      "patterns": [
+        "Who are the civil tech heads?",
+        "Who are the civil engineering tech heads?",
+        "civil engineering",
+        "civil"
+      ],
+      "responses": [
+        "Heads: Senthil Kumar  S K. 7598686756 Co-Heads: Mouries R D. R.9976070888 and Krishnaraj R. 9445482183"
+      ],
+      "contextFilter": "techHeadDept",
+      "contextCheck": "techHeadDept"
+    },
+    {
+      "tag": "ascom",
+      "patterns": [
+        "Who are the ascom tech heads?",
+        "Who are the school of communication tech heads?",
+        "who are the amrita school of communication tech heads",
+        "amrita school of communication",
+        "ascom",
+        "communication"
+      ],
+      "responses": [
+        "Heads: Athira Muralidheeran. 8055672073 and Deekshith B. 9567254222 Co-Heads: Sreevidya K.9745705259 and Krishnanunni. 9495845539"
+      ],
+      "contextFilter": "techHeadDept",
+      "contextCheck": "techHeadDept"
+    },
+    {
+      "tag": "cen",
+      "patterns": [
+        "Who are the cen tech heads?",
+        "Who are the computational engineering and networking tech heads?",
+        "cen"
+      ],
+      "responses": [
+        "Heads: Vivek Vinayan. 8618567972 and Shalini K. 9108795710"
+      ],
+      "contextFilter": "techHeadDept",
+      "contextCheck": "techHeadDept"
+    },
+    {
+      "tag": "cyberSecurity",
+      "patterns": [
+        "Who are the cyber security tech heads?",
+        "Who are the cyber sec tech heads?",
+        "cyber sec",
+        "cyber security"
+      ],
+      "responses": [
+        "Heads: Krishna. 9400129815 and Manasa Sidhardhan. 8939680544"
+      ],
+      "contextFilter": "techHeadDept",
+      "contextCheck": "techHeadDept"
+    },
+    {
+      "tag": "msw",
+      "patterns": [
+        "Who are the social work tech heads?",
+        "Who are the masters in social work heads?",
+        "social work",
+        "msw"
+      ],
+      "responses": [
+        "Heads: Jishnu Pawan K. 9495930102 and Anwesha Roy. 9871274329"
+      ],
+      "contextFilter": "techHeadDept",
+      "contextCheck": "techHeadDept"
+    },
+    {
+      "tag": "maths",
+      "patterns": [
+        "Who are the maths tech heads?",
+        "Who are the math heads?",
+        "math"
+      ],
+      "responses": [
+        "Heads: K.V.S  Sai Kashyap. 9566560186 and Kondemudi Chandramouli. 9790419963 Co-Heads: Chava Meghana. 9003803863 and Thalla Laxmi Thylokya. 9003863739"
+      ],
+      "contextFilter": "techHeadDept",
+      "contextCheck": "techHeadDept"
+    },
+    {
+      "tag": "science",
+      "patterns": [
+        "Who are the sciences tech heads?",
+        "Who are the science heads?",
+        "science"
+      ],
+      "responses": [
+        "Heads: Anupama Sujatha. 9490983688 and Oviya Mohan. 7200860205"
+      ],
+      "contextFilter": "techHeadDept",
+      "contextCheck": "techHeadDept"
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What kind of food is there?",
+        "Is the food going to be good?",
+        "How's the food?",
+        "Food?",
+        "What are the stalls?",
+        "Where can i eat",
+        "Eat",
+        "Tell me about food",
+        "Tell me more about food"
+      ],
+      "responses": [
+        "We have the most delicious vegetarian food from all over the place.",
+        "Your taste buds will be in a state of trance once you get a taste of our food!"
+      ]
+    },
+    {
+      "tag": "anokha",
+      "patterns": [
+        "What is anokha?",
+        "Anokha?",
+        "When is Anokha",
+        "Tell me about Anokha",
+        "Can you tell me about anokha"
+      ],
+      "responses": [
+        "Anokha is an amazing tech fest conducted at Amrita University. It goes on for three days February 22, 23 and 24. Contact \n\nHead"
+      ]
+    },
+    {
+      "tag": "cuss",
+      "patterns": [
+        "Motherfucker",
+        "fuck",
+        "vagina",
+        "dick",
+        "nigger",
+        "nigga",
+        "cunt",
+        "pussy",
+        "bitch",
+        "fucker",
+        "asshole",
+        "ass",
+        "shit",
+        "i hate you",
+        "hate"
+      ],
+      "responses": [
+        "Om Nama Shivayaaaa!",
+        "NEENGA SHUTUP PANNUNGA",
+        "Trigger Panadhe!"
+      ]
+    },
+    {
+      "tag": "sexual advances",
+      "patterns": [
+        "Baby",
+        "Babe",
+        "Do you smash",
+        "Wanna fuck",
+        "Do you smash",
+        "What is sex",
+        "Will you have sex with me",
+        "Will you marry me?",
+        "fuck me",
+        "give me a bj",
+        "give me a blow job",
+        "give me a rim job",
+        "Wanna bang?",
+        "Will you bang me?",
+        "luv you",
+        "i love you",
+        "love you",
+        "are you single",
+        "single?"
+      ],
+      "responses": [
+        "I have a boyfriend",
+        "Dei dried up fellow"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is Anokha",
+        "Is it in coimbatore",
+        "Where do I come?",
+        "Where",
+        "Coimbatore",
+        "Which Amrita",
+        "Which campus",
+        "What campus",
+        "where is anokha conducted"
+      ],
+      "responses": [
+        "Anokha is conducted at Amrita University Coimbatore"
+      ]
+    },
+    {
+      "tag": "stall",
+      "patterns": [
+        "hmm",
+        "ahaan",
+        "yeah",
+        "yes",
+        "yep",
+        "i see",
+        "wow",
+        "really",
+        "seriously"
+      ],
+      "responses": [
+        "Yes",
+        "That's right",
+        "Yep"
+      ]
+    },
+    {
+      "tag": "website",
+      "patterns": [
+        "website",
+        "site",
+        "app",
+        "android"
+      ],
+      "responses": [
+        "checkout our website at https://anokha.amrita.edu or the android app anokha in play store"
+      ]
+    }
+  ]
 }
