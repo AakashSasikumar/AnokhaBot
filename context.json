@@ -710,7 +710,8 @@
                 "single?"
             ],
             "responses": [
-                "I have a boyfriend"
+                "I have a boyfriend",
+		"Dei dried up fellow"
             ]
         },
         {
@@ -748,6 +749,16 @@
                 "That's right",
                 "Yep"
             ]
-        }
-    ]
+        },
+	{
+		"tag": "website",
+		"patterns": [
+		"website",
+		"site",
+		"app",
+		"android"
+    ],
+	    "responses":	[
+	 	 "checkout our website at https://anokha.amrita.edu or the android app anokha in play store"
+	    ]}
 }
