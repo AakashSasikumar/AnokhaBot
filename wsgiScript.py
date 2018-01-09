@@ -19,5 +19,5 @@ def application(environ, start_response):
     start_response(status, response_headers)
     return [response_body.encode("utf-8")]
 
-httpd = make_server('localhost', 9090, application)
+httpd = make_server('117.240.224.26', 3128, application)
 httpd.serve_forever()
