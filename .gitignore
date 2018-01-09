@@ -7,3 +7,5 @@ OrgTeamData.json
 TechTeamData.json
 .vscode/settings.json
 test.py
+app.py
+flaskApp.conf
