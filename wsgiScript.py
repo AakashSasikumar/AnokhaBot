@@ -1,5 +1,7 @@
 from wsgiref.simple_server import make_server
 from cgi import parse_qs, escape
+import socket
+import sys
 import Bot
 
 def application(environ, start_response):

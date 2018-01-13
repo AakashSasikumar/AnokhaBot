@@ -8,4 +8,9 @@ TechTeamData.json
 .vscode/settings.json
 test.py
 app.py
-flaskApp.conf
+flaskApp.
+flaskApp.py
+manage.py
+test2.py
+test3.py
+wsgiScript.py
