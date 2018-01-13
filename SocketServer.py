@@ -1,6 +1,7 @@
 import socket
 from urllib.parse import urlsplit, parse_qs
 import Bot
+import json
 
 host = ''
 port = 3126
@@ -61,7 +62,7 @@ while True:
         pass
     replyDict = {}
     replyDict["reply"] = reply
-    replyDict = str(replyDict)
+    replyDict = json.dumps(replyDict)
     try:
         client.send(replyDict.encode())
     except KeyboardInterrupt as e:
