@@ -30,7 +30,6 @@ while True:
         client.send(b'Content-Type: text/html' + CLRF*2)
         request = client.recv(1024)
         getRequest = request.splitlines()[0].decode("utf-8")[4:-9]
-        getRequest = getRequest
         query = urlsplit(getRequest).query
         parameters = parse_qs(query)
     except KeyboardInterrupt as e:
@@ -51,7 +50,15 @@ while True:
         print("Error while parsing GET Request", e)
     finally:
         pass
-    reply = Bot.response(question)
+    
+    try:
+        reply = Bot.response(question)
+        
+    except Exception as e:
+        print("Error while parsing GET Request", e)
+        print("The value passed to the Bot was not defined")
+    finally:
+        pass
     replyDict = {}
     replyDict["reply"] = reply
     replyDict = str(replyDict)
