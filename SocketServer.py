@@ -2,8 +2,8 @@ import socket
 from urllib.parse import urlsplit, parse_qs
 import Bot
 
-host = '117.240.224.26'
-port = 3128
+host = ''
+port = 3129
 CLRF = b'\r\n'
 
 
@@ -11,19 +11,60 @@ serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 serverSocket.bind((host, port))
 serverSocket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 serverSocket.listen(5)
+
 while True:
-    client, addr = serverSocket.accept()
-    request = client.recv(1024)
-    getRequest = request.splitlines()[0].decode("utf-8")[4:-9]
-    getRequest = getRequest
-    query = urlsplit(getRequest).query
-    parameters = parse_qs(query)
-    question = parameters["query"][0]
+    print("Listening")
+    try:
+        client, addr = serverSocket.accept()
+        
+    except KeyboardInterrupt:
+        client.close()
+        break
+    except Exception as e:
+        print("Could not establish connection with the client", e)
+    finally:
+        pass
+
+    try:
+        client.send(b'HTTP/1.1 400 BAD Request' + CLRF)
+        client.send(b'Content-Type: text/html' + CLRF*2)
+        request = client.recv(1024)
+        getRequest = request.splitlines()[0].decode("utf-8")[4:-9]
+        getRequest = getRequest
+        query = urlsplit(getRequest).query
+        parameters = parse_qs(query)
+    except KeyboardInterrupt as e:
+        print(e)
+        break
+    except Exception as e:
+        print("Error while parsing the GET Request", e)
+    finally:
+        pass
+    
+    try:
+        question = parameters["query"][0]
+        
+    except KeyboardInterrupt as e:
+        print(e)
+        break
+    except Exception as e:
+        print("Error while parsing GET Request", e)
+    finally:
+        pass
     reply = Bot.response(question)
     replyDict = {}
     replyDict["reply"] = reply
     replyDict = str(replyDict)
-    client.send(replyDict.encode())
+    try:
+        client.send(replyDict.encode())
+    except KeyboardInterrupt as e:
+        print(e)
+        break
+    except Exception as e:
+        print("Could not send reply to client", e)
+    finally:
+        pass
+    
     client.close()
 
 serverSocket.close()
