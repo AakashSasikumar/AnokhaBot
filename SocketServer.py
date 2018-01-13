@@ -2,8 +2,8 @@ import socket
 from urllib.parse import urlsplit, parse_qs
 import Bot
 
-host = ''
-port = 8081
+host = '117.240.224.26'
+port = 3128
 CLRF = b'\r\n'
 
 
