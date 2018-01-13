@@ -3,7 +3,7 @@ from urllib.parse import urlsplit, parse_qs
 import Bot
 
 host = ''
-port = 3129
+port = 3126
 CLRF = b'\r\n'
 
 
