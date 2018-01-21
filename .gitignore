@@ -5,12 +5,5 @@ gitlab.txt
 TestConfig.py
 OrgTeamData.json
 TechTeamData.json
-.vscode/settings.json
+.vscode
 test.py
-app.py
-flask*
-manage.py
-test2.py
-test3.py
-wsgiScript.py
-test.wsgi
