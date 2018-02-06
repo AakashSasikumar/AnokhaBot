@@ -19,6 +19,18 @@ trainY = data['trainY']
 with open('context.json') as jsonData:
     contexts = json.load(jsonData)
 
+with open('EventContext.json') as jsonData:
+    contexts2 = json.load(jsonData)
+
+with open("WorkshopContext.json") as jsonData:
+    context3 = json.load(jsonData)
+
+for i in contexts2["contexts"]:
+    contexts["contexts"].append(i)
+
+for i in context3["contexts"]:
+    contexts["contexts"].append(i)
+
 net = tflearn.input_data(shape=[None, len(trainX[0])])
 net = tflearn.fully_connected(net, 16)
 net = tflearn.fully_connected(net, 16)
@@ -27,7 +39,7 @@ net = tflearn.regression(net)
 
 model = tflearn.DNN(net, tensorboard_dir='tflearn_logs')
 model.load('data/model/model.tflearn')
-MIN_ACC = 0.25
+MIN_ACC = 0.30
 
 
 def tokenizeAndStem(sentence):
@@ -74,4 +86,6 @@ def response(sentence, chatID=0):
                     if not 'contextFilter' in i or (chatID in context and 'contextFilter' in i and i['contextFilter'] == context[chatID]) or "contextCheck" in i:
 
                         return random.choice(i['responses'])
-                    return
+                    return ""
+    else:
+        return ""

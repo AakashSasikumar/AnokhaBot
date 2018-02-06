@@ -15,8 +15,6 @@ import _thread
 # TO-DO
 # 1. Workshops
 # 2. Eventide
-# 3. Accomodation
-# 4. Food
 
 proxy_url = "http://proxy.server:3128"
 # telepot.api._pools = {

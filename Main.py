@@ -12,6 +12,18 @@ stemmer = LancasterStemmer()
 def train():
     with open('context.json') as jsonData:
         intents = json.load(jsonData)
+    
+    with open("EventContext.json") as jsonData:
+        intents2 = json.load(jsonData)
+    
+    with open("WorkshopContext.json") as jsonData:
+        intents3 = json.load(jsonData)
+    
+    for i in intents2["contexts"]:
+        intents["contexts"].append(i)
+    
+    for i in intents3["contexts"]:
+        intents["contexts"].append(i)
 
     words = []
     tags = []
@@ -62,7 +74,7 @@ def train():
 
     model = tflearn.DNN(net, tensorboard_dir='data/tflearn_logs')
 
-    model.fit(trainingDataX, trainingDataY, n_epoch=250, batch_size=8, show_metric=True)
+    model.fit(trainingDataX, trainingDataY, n_epoch=150, batch_size=8, show_metric=True)
     model.save('data/model/model.tflearn')
 
     pickle.dump({'words': words, 'classes': tags, 'trainX': trainingDataX, 'trainY': trainingDataY}, open("data/trainingData", "wb"))

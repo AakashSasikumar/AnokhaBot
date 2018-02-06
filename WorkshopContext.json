@@ -1,0 +1,744 @@
+{
+    "contexts": [
+        {
+            "tag": "aspen hysys",
+            "patterns": [
+                "what is aspen hysys",
+                "tell me about aspen hysys",
+                "aspen hysys",
+                "when is aspen hysys",
+                "who is conducting aspen hysys",
+                "what is the aspen hysys workshop",
+                "tell me about the aspen hysys workshop"
+            ],
+            "responses": [
+                "The Aspen Hysys Workshop is conducted by the CHEMICAL Department. Here's a gist of what it's going to be like. Over the past decade, the Chemical Engineering industry has turned away from the traditional way of experimentation-based results to simulation-based results in order to scale up and reduce cost and time. ASPEN HYSYS software workshop aims at equipping students with simulation-based tools for chemical processes. This software will prepare students for corporate jobs which require a certain level of expertise in modeling and simulation. Students currently pursuing 3rd and 4th year of Undergraduate and Postgraduate studies in Chemical Engineering, Petroleum Refining, Petrochemical Engineering and allied areas are encouraged to register. During this 3-day workshop, the course attendees will be trained on the commercially available software, ASPEN HYSYS. Students will learn about simulation of individual equipment such as pumps, compressors, flash drums, three-phase separators, heat exchangers, reactors, distillation columns, extraction units and absorption columns.\n\nOpen only to students outside the Department of Chemical Engineering & Materials Science, Amrita University.. Check out the awesome Anokha Website or \ncontact Rishi Kaashyap ph. 9500338400 for more information."
+            ]
+        },
+        {
+            "tag": "green building",
+            "patterns": [
+                "what is green building",
+                "tell me about green building",
+                "green building",
+                "when is green building",
+                "who is conducting green building",
+                "what is the green building workshop",
+                "tell me about the green building workshop"
+            ],
+            "responses": [
+                "The Green Building Workshop is conducted by the CIVIL Department. Here's a gist of what it's going to be like. An environmental friendly building is always aesthetically pleasing and resource efficient.\nBut a lot of work goes into the construction of such massive structures. Given the alarming rise in environmental pollution, green buildings have become the need of the hour. Join for a 1-day workshop conducted by Robokart to learn about the sustainable design of green architecture.\n\nGreen building is the practice of creating structures and using processes that are environmentally responsible and resource-efficient throughout a building\u2019s life-cycle from siting to design, construction, operation, maintenance, renovation, and deconstruction. This practice expands and complements the classical building design concerns of economy, utility,\ndurability, and comfort. Globally, buildings are responsible for a huge share of energy, electricity, water and materials consumption. On the aesthetic side of green architecture or sustainable design is the philosophy of designing a building that is in harmony with the natural features and resources surrounding the site.\n\nTopics covered:\n1. Relationship between building sector and energy sector\n2.Approach to sustainable design\n3.Thermal performance of buildings\n4.Smart Materials for Buildings\n5.Renewable Energy Options for Buildings. Check out the awesome Anokha Website or \ncontact Vivek ph. 9894054965 for more information."
+            ]
+        },
+        {
+            "tag": "gis",
+            "patterns": [
+                "what is gis",
+                "tell me about gis",
+                "gis",
+                "when is gis",
+                "who is conducting gis",
+                "what is the gis workshop",
+                "tell me about the gis workshop"
+            ],
+            "responses": [
+                "The Gis Workshop is conducted by the CIVIL Department. Here's a gist of what it's going to be like. Acquiring the prerequisite for an area before starting any construction is the most integral part and it\u2019s possible only through the GIS technology. This is a technology which we all need and use, popularly in the form of Google Maps. Come join us for a 1-day workshop conducted by Robokart addressing the latest trends and developments in the area of Geospatial technology.\n\nGeographic Information System (GIS) technology has predominantly changed how our world is analyzed and modeled. Be it small businesses, multinational companies, agriculture-based companies, educational institutions, or maps guiding a lost\nindividual- GIS finds application in many areas. The rapid growth rate of data poses huge challenge to its interpretation. GIS provides an easy and more efficient way to interpret geospatial data \u2013 to create a topographic map with elevation, angles and other features.GIS is being used extensively in various domains including in civil engineering, water resources, earth sciences, transportation engineering, navigation etc. Google Earth and Google Map are very popular custom-designed user-friendly GIS products which are widely used for various purposes including in navigation etc.\n\nTopics covered:\n1.Map Terminology\n2. Remote Sensing Concepts\n3. Raster Data Representation\n4. Vector Data Representation\n5. Data Analysis\n6. Introduction to GPS\n7. GIS Applications\n8. GIS Project Design and Management. Check out the awesome Anokha Website or \ncontact Karthikeyan ph. 8610739778 for more information."
+            ]
+        },
+        {
+            "tag": "matlab toolbox for aero engineers",
+            "patterns": [
+                "what is matlab toolbox for aero engineers",
+                "tell me about matlab toolbox for aero engineers",
+                "matlab toolbox for aero engineers",
+                "when is matlab toolbox for aero engineers",
+                "who is conducting matlab toolbox for aero engineers",
+                "what is the matlab toolbox for aero engineers workshop",
+                "tell me about the matlab toolbox for aero engineers workshop"
+            ],
+            "responses": [
+                "The Matlab Toolbox For Aero Engineers Workshop is conducted by the AERO Department. Here's a gist of what it's going to be like. MATLAB is a powerful platform, widely used in the field of Aerospace Engineering. It is used to model, simulate and analyze various systems including aircrafts, UAVs, satellites, and drones and is quite user-friendly as well. As one of the most important software used industrially, a good knowledge of MATLAB will surely boost your software skills, especially in the field of Avionics systems. \n\nThis workshop provides a MATLAB tool for solving the 6 degrees of freedom problem in an aircraft. In this workshop, the students get to learn and use the tool so that it can be applied to real-time aircraft stability related problems such as yaw, pitch, and roll.. Check out the awesome Anokha Website or \ncontact Neha ph. 8754535777 for more information."
+            ]
+        },
+        {
+            "tag": "\"be a ninja\" - workshop on cyber forensics",
+            "patterns": [
+                "what is be a ninja workshop on cyber forensics",
+                "tell me about be a ninja workshop on cyber forensics",
+                "be a ninja workshop on cyber forensics",
+                "when is be a ninja workshop on cyber forensics",
+                "who is conducting be a ninja workshop on cyber forensics",
+                "what is the be a ninja workshop on cyber forensics workshop",
+                "tell me about the be a ninja workshop on cyber forensics workshop"
+            ],
+            "responses": [
+                "The Be A Ninja Workshop On Cyber Forensics Workshop is conducted by the CSE Department. Here's a gist of what it's going to be like. Are you curious about the computer science behind gathering digital evidence in cyber-crime? Would you like learn how to identify, preserve, analyze and extract the necessary information? Then here is your chance to explore more about computer forensics and ethical hacking! Enrol yourself in the workshop held by CISCO on Cyber Forensics, a field of computer science that has grown to become a science in itself.. Check out the awesome Anokha Website or \ncontact Sai Kiran ph. 8885881044 for more information."
+            ]
+        },
+        {
+            "tag": "workshop on entrepreneurship by ib hubs",
+            "patterns": [
+                "what is workshop on entrepreneurship by ib hubs",
+                "tell me about workshop on entrepreneurship by ib hubs",
+                "workshop on entrepreneurship by ib hubs",
+                "when is workshop on entrepreneurship by ib hubs",
+                "who is conducting workshop on entrepreneurship by ib hubs",
+                "what is the workshop on entrepreneurship by ib hubs workshop",
+                "tell me about the workshop on entrepreneurship by ib hubs workshop"
+            ],
+            "responses": [
+                "The Workshop On Entrepreneurship By Ib Hubs Workshop is conducted by the CSE Department. Here's a gist of what it's going to be like. If you're an entrepreneur in the making, this is the workshop for you. Broaden your capacity to develop, organize, and manage a profitable business venture. Find the perfect balance between innovation and risk-taking to succeed in an ever-changing and increasingly competitive global marketplace.\n\nSPECIAL FEATURES AND TAKEAWAY:\n\uf0b7 Focuses on helping the student gain an entrepreneurial mindset and enhance their idea generation and idea validation.\n\uf0b7 Gives clearer understanding of the traits of an entrepreneur, real-life insights into entrepreneurship, and generation & validation of effective ideas.. Check out the awesome Anokha Website or \ncontact Mukundini ph. 7382540650 for more information."
+            ]
+        },
+        {
+            "tag": "machine learning and internet of things using matlab",
+            "patterns": [
+                "what is machine learning and internet of things using matlab",
+                "tell me about machine learning and internet of things using matlab",
+                "machine learning and internet of things using matlab",
+                "when is machine learning and internet of things using matlab",
+                "who is conducting machine learning and internet of things using matlab",
+                "what is the machine learning and internet of things using matlab workshop",
+                "tell me about the machine learning and internet of things using matlab workshop"
+            ],
+            "responses": [
+                "The Machine Learning And Internet Of Things Using Matlab Workshop is conducted by the CSE Department. Here's a gist of what it's going to be like. DETAILS: MATLAB is an interactive, high-performance language for technical computing. Here is your chance to get a closer look on how it works. This workshop helps lay a foundation for understanding the integration of computation, visualization, and programming in an easy-to-use environment by expressing problems and solutions in familiar mathematical notation.\n\nVenue \u2013 CP LAB-1 AB1\nSPECIAL FEATURES AND TAKEAWAY (in points): \nThis workshop explores the fundamentals of machine learning using MATLAB. Through several examples, we review typical workflows for both supervised learning (classification) and unsupervised learning (clustering). \nA brief overview on Deep Learning is provided in the session. Deep learning is a branch of machine learning that teaches computers to do what comes naturally to humans: learn from experience. It's especially suited for image recognition, which is important for solving problems such as facial recognition, motion detection, and many advanced driver assistance technologies such as autonomous driving, lane detection, pedestrian detection, and autonomous parking. \nThis session also explores the use of MATLAB\u00ae and Simulink\u00ae products for the development of IoT systems in areas such as edge node device development and testing, accessing and collecting data, and analysing IoT sensor data.. Check out the awesome Anokha Website or \ncontact Harsha Vardhini V ph. 9585513705 for more information."
+            ]
+        },
+        {
+            "tag": "ideate - pitchfest",
+            "patterns": [
+                "what is ideate pitchfest",
+                "tell me about ideate pitchfest",
+                "ideate pitchfest",
+                "when is ideate pitchfest",
+                "who is conducting ideate pitchfest",
+                "what is the ideate pitchfest workshop",
+                "tell me about the ideate pitchfest workshop"
+            ],
+            "responses": [
+                "The Ideate Pitchfest Workshop is conducted by the CSE Department. Here's a gist of what it's going to be like. If you have a great innovative idea or product then sign up for Ideate. This workshop is a platform for startups to display their ideas and bring them to life.. Check out the awesome Anokha Website or \ncontact Aruna D ph. 9489702963 for more information."
+            ]
+        },
+        {
+            "tag": "analytic nostradamus",
+            "patterns": [
+                "what is analytic nostradamus",
+                "tell me about analytic nostradamus",
+                "analytic nostradamus",
+                "when is analytic nostradamus",
+                "who is conducting analytic nostradamus",
+                "what is the analytic nostradamus workshop",
+                "tell me about the analytic nostradamus workshop"
+            ],
+            "responses": [
+                "The Analytic Nostradamus Workshop is conducted by the CSE Department. Here's a gist of what it's going to be like. Data-driven prediction is the superpower most sought after by organizations today. Companies, policy-makers, NGOs and governments have begun to strongly rely on data analytics to mine insights and make data-driven decisions. If this is the field which piques your interest, sign up for the Analytic Nostradamus workshop and learn how to develop software solutions which help in the interactive study of big data, and investigate algorithms for numerical data-driven prediction to simplify and fasten the engineering decision process.\n\nSPECIAL FEATURES AND TAKEAWAY:\n\u2022 This workshop will give participants comprehensive skills in order to program analytical models to help deduce underlying patterns and predict the unknown. With real-world datasets from organizations including Twitter, Facebook, Netflix and Wikipedia, \"Analytic Nostradamus\" workshop will teach participants to code using R Programming. \n\u2022 Participants will be able to identify and apply various analytical algorithms with relevance to context, build data analytics solutions and add a solid skill set to their resume.. Check out the awesome Anokha Website or \ncontact Greeshmanth ph. 8008194621 for more information."
+            ]
+        },
+        {
+            "tag": "webvr architect",
+            "patterns": [
+                "what is webvr architect",
+                "tell me about webvr architect",
+                "webvr architect",
+                "when is webvr architect",
+                "who is conducting webvr architect",
+                "what is the webvr architect workshop",
+                "tell me about the webvr architect workshop"
+            ],
+            "responses": [
+                "The Webvr Architect Workshop is conducted by the CSE Department. Here's a gist of what it's going to be like. Virtual Reality is the cutting edge of technology, with a wide range of industries scouting for people with VR programming skills. In this workshop you can study the innovative technology that allows any architectural visualization artist to create cross-platform VR experiences.\n\nSPECIAL FEATURES AND TAKEAWAY: \nWebVR is an open specification that makes it possible to experience VR in all modern browsers. The art and science of building VR in web is rapidly innovating e-commerce, healthcare, education and the gaming world. \nThis workshop shall deliver high-end skills in designing web applications that provide an immersive and realistic experience for the user. The skills from this workshop can be used to build WebVR stores, tours and more.. Check out the awesome Anokha Website or \ncontact Suvanika ph. 7200590672 for more information."
+            ]
+        },
+        {
+            "tag": "open source digital investigation",
+            "patterns": [
+                "what is open source digital investigation",
+                "tell me about open source digital investigation",
+                "open source digital investigation",
+                "when is open source digital investigation",
+                "who is conducting open source digital investigation",
+                "what is the open source digital investigation workshop",
+                "tell me about the open source digital investigation workshop"
+            ],
+            "responses": [
+                "The Open Source Digital Investigation Workshop is conducted by the CSE Department. Here's a gist of what it's going to be like. Have you ever wondered how forensic and investigation departments use technology to solve their cases? This workshop is your chance to explore the ways in which technology is used to join the pieces of the puzzle in the real world.. Check out the awesome Anokha Website or \ncontact Pavarakshana ph. 9655496644 for more information."
+            ]
+        },
+        {
+            "tag": "ubuntu - explore and exploit kernel",
+            "patterns": [
+                "what is ubuntu explore and exploit kernel",
+                "tell me about ubuntu explore and exploit kernel",
+                "ubuntu explore and exploit kernel",
+                "when is ubuntu explore and exploit kernel",
+                "who is conducting ubuntu explore and exploit kernel",
+                "what is the ubuntu explore and exploit kernel workshop",
+                "tell me about the ubuntu explore and exploit kernel workshop"
+            ],
+            "responses": [
+                "The Ubuntu Explore And Exploit Kernel Workshop is conducted by the CSE Department. Here's a gist of what it's going to be like. Operating systems has seen a drastic shift in the past few decades. From Unix Operating system to the latest Android OS, every OS relies heavily on the functionality of its kernel. After all, what is an OS without its heart? This workshop will throw some important insight into the working of a kernel. Participants will explore and exploit different areas of a kernel and its functions.. Check out the awesome Anokha Website or \ncontact Arun ph. 9092475250 for more information."
+            ]
+        },
+        {
+            "tag": "getting started with cloud computing using aws platform",
+            "patterns": [
+                "what is getting started with cloud computing using aws platform",
+                "tell me about getting started with cloud computing using aws platform",
+                "getting started with cloud computing using aws platform",
+                "when is getting started with cloud computing using aws platform",
+                "who is conducting getting started with cloud computing using aws platform",
+                "what is the getting started with cloud computing using aws platform workshop",
+                "tell me about the getting started with cloud computing using aws platform workshop"
+            ],
+            "responses": [
+                "The Getting Started With Cloud Computing Using Aws Platform Workshop is conducted by the CSE Department. Here's a gist of what it's going to be like. AWS Educate is Amazon\u2019s global initiative to provide students and educators with the resources needed to accelerate cloud-related learning endeavor. Built in response to the increasing demand for employees trained in cloud-computing, AWS Educate provides an academic gateway for the next generation of IT and cloud professionals. This workshop focusses on AWS training as part of the Educate programme. It will help the participants in understanding a number of tools provided by Amazon AWS that include hosting scalable applications, building websites and blogs, machine learning, analytics and IoT related tools.. Check out the awesome Anokha Website or \ncontact Shriti A ph. 9488524574 for more information."
+            ]
+        },
+        {
+            "tag": "the hitchhikers guide to open source",
+            "patterns": [
+                "what is the hitchhikers guide to open source",
+                "tell me about the hitchhikers guide to open source",
+                "the hitchhikers guide to open source",
+                "when is the hitchhikers guide to open source",
+                "who is conducting the hitchhikers guide to open source",
+                "what is the the hitchhikers guide to open source workshop",
+                "tell me about the the hitchhikers guide to open source workshop"
+            ],
+            "responses": [
+                "The The Hitchhikers Guide To Open Source Workshop is conducted by the CSE Department. Here's a gist of what it's going to be like. Day 1\u00a0\u00a0\nThe Open Source Philosophy and the Hacker Culture. Open Source. What? Why? When?\u00a0\nIntroduction to Linux distributions. Command Line Interface and why it's awesome!Communicating in an Open Source Environment and etiquette.How to start your Open Source journey\nCareer Opportunities, Google Summer of Code, Gnome Outreachy etc.\nVersion Control: Git 101\u00a0\nFedora Install Fest\n\nDay 2\nAdvanced Git\nOpen Source tools and Software and why they're the best. Introduction to Docker and virtualization. Introduction to Automation and Ansible deep dive. Automate your life with Ansible Release\u00a0Party, Quiz and Surprises!\n\nNOTE: No prior knowledge required. All you need is an open mind, curiosity and passion to learn new things :)\u00a0Please bring your own laptops for maximum efficiency.\u00a0. Check out the awesome Anokha Website or \ncontact Aasha ph. 9487339270 for more information."
+            ]
+        },
+        {
+            "tag": "intel deep learning sdk with overview on commercial iot",
+            "patterns": [
+                "what is intel deep learning sdk with overview on commercial iot",
+                "tell me about intel deep learning sdk with overview on commercial iot",
+                "intel deep learning sdk with overview on commercial iot",
+                "when is intel deep learning sdk with overview on commercial iot",
+                "who is conducting intel deep learning sdk with overview on commercial iot",
+                "what is the intel deep learning sdk with overview on commercial iot workshop",
+                "tell me about the intel deep learning sdk with overview on commercial iot workshop"
+            ],
+            "responses": [
+                "The Intel Deep Learning Sdk With Overview On Commercial Iot Workshop is conducted by the CSE Department. Here's a gist of what it's going to be like. The Internet of Things is the most popular workshop in the Computer Science department. Starting from the routers in our workplaces to the handsets which provide internet to us every minute, the Internet of Things is an essential part of nearly every device we use every day. This workshop provides a basic introduction to the topic, and covers uses and applications.. Check out the awesome Anokha Website or \ncontact Dharaa ph. 9080143608 for more information."
+            ]
+        },
+        {
+            "tag": "data science and business analytics",
+            "patterns": [
+                "what is data science and business analytics",
+                "tell me about data science and business analytics",
+                "data science and business analytics",
+                "when is data science and business analytics",
+                "who is conducting data science and business analytics",
+                "what is the data science and business analytics workshop",
+                "tell me about the data science and business analytics workshop"
+            ],
+            "responses": [
+                "The Data Science And Business Analytics Workshop is conducted by the CSE Department. Here's a gist of what it's going to be like. Big data is big business, and organizations everywhere are scrambling to deal with the valuable mountain they have at their fingertips. While data analytics helps you examine data and draw conclusions, business analytics uses those conclusions to help you make business friendly decisions. This workshop by Microsoft gives you an insight into how to combine the two to come up with feasible solutions to analytically complex problems.. Check out the awesome Anokha Website or \ncontact Akshaya ph. 9385703200 for more information."
+            ]
+        },
+        {
+            "tag": "mathematical modelling and its applications",
+            "patterns": [
+                "what is mathematical modelling and its applications",
+                "tell me about mathematical modelling and its applications",
+                "mathematical modelling and its applications",
+                "when is mathematical modelling and its applications",
+                "who is conducting mathematical modelling and its applications",
+                "what is the mathematical modelling and its applications workshop",
+                "tell me about the mathematical modelling and its applications workshop"
+            ],
+            "responses": [
+                "The Mathematical Modelling And Its Applications Workshop is conducted by the MATH Department. Here's a gist of what it's going to be like. Does your curious mind always want to find new ways of solving problems? Are you interested in learning how to apply mathematics to your everyday life? This workshop will teach you all that and much more. Comprising a wide range of topics on mathematics, this workshop will undoubtedly intensify your love for the subject.\n\nInformation:\nHandouts regarding topics discussed in workshop are given to registrants on the day of workshop.. Check out the awesome Anokha Website or \ncontact Narsimha ph. 9003864979 for more information."
+            ]
+        },
+        {
+            "tag": "cosmic light",
+            "patterns": [
+                "what is cosmic light",
+                "tell me about cosmic light",
+                "cosmic light",
+                "when is cosmic light",
+                "who is conducting cosmic light",
+                "what is the cosmic light workshop",
+                "tell me about the cosmic light workshop"
+            ],
+            "responses": [
+                "The Cosmic Light Workshop is conducted by the SCIENCE Department. Here's a gist of what it's going to be like. Humans have always been fascinated by the cosmos. From perhaps the very beginning of history, we have looked up into the night skies, trying, and failing, to count the innumerable number of stars scattered across the dark night. But never was there reason for us to suspect that there was much, much more to the night sky than we\u2019d ever been able to witness, until the advent of astrophotography.\nIt has helped humankind to discover a number of new, unknown stars and nebulae, using long exposure photography to reveal what the naked human eye so far has not been able to visualise. These discoveries have enabled stunning realisations about the variegation of our universe. Want to be at the forefront of astrophotography, the driving force behind it all? Cosmic Light is a workshop on post-processing techniques for astrophotography. Learn about the presentation of the astro-photos that you capture, and also about several editing softwares specifically pertaining to astro-photography.. Check out the awesome Anokha Website or \ncontact Oviya Mohan ph. 7200860205 for more information."
+            ]
+        },
+        {
+            "tag": "national instruments - labview",
+            "patterns": [
+                "what is national instruments labview",
+                "tell me about national instruments labview",
+                "national instruments labview",
+                "when is national instruments labview",
+                "who is conducting national instruments labview",
+                "what is the national instruments labview workshop",
+                "tell me about the national instruments labview workshop"
+            ],
+            "responses": [
+                "The National Instruments Labview Workshop is conducted by the ECE Department. Here's a gist of what it's going to be like. Learn the basics of LabVIEW from the masters themselves. In this two-day workshop, National Instruments teaches you about LabVIEW - ranging from basic numerical operations and loops to media processing and Data Acquisition systems. LabVIEW contains all the features you'll need to design an entire system graphically on a computer. \n\nIncluded : Certificate from National Instruments.. Check out the awesome Anokha Website or \ncontact Tarun Kancharla ph. 9159919789 for more information."
+            ]
+        },
+        {
+            "tag": "bluetooth controlled robotics",
+            "patterns": [
+                "what is bluetooth controlled robotics",
+                "tell me about bluetooth controlled robotics",
+                "bluetooth controlled robotics",
+                "when is bluetooth controlled robotics",
+                "who is conducting bluetooth controlled robotics",
+                "what is the bluetooth controlled robotics workshop",
+                "tell me about the bluetooth controlled robotics workshop"
+            ],
+            "responses": [
+                "The Bluetooth Controlled Robotics Workshop is conducted by the ECE Department. Here's a gist of what it's going to be like. Learn the basics of robotics and programming and build your own Bluetooth controlled bot. Includes the basics of line following, pit avoiding and obstacle avoiding. Gain hands-on experience in interfacing sensor with microcontrollers. Work with LDR, LCD module and IR sensor. Learn the basic concepts of PWM, AVR series (Atmega 328), interfacing DC motors with microcontrollers, direction & speed control, actuators, and much more. The learning doesn't end with the workshop as you get a handy kit which includes sensors, the robot module, and a Bluetooth transmitter and receiver to take home with you.\n\nREQUIREMENTS: A laptop per team.\n\n*Registration fee denomination is per team.. Check out the awesome Anokha Website or \ncontact S.Jagadeeswaran ph. 9677930073 for more information."
+            ]
+        },
+        {
+            "tag": "deep learning workshop",
+            "patterns": [
+                "what is deep learning workshop",
+                "tell me about deep learning workshop",
+                "deep learning workshop",
+                "when is deep learning workshop",
+                "who is conducting deep learning workshop",
+                "what is the deep learning workshop workshop",
+                "tell me about the deep learning workshop workshop"
+            ],
+            "responses": [
+                "The Deep Learning Workshop Workshop is conducted by the ECE Department. Here's a gist of what it's going to be like. If you want to break into AI, this is the specialization to look into. Deep Learning is one of the most sought-after skills in tech. It's become the most popular approach to developing Artificial intelligence (AI) \u2013 machines that perceive and understand the world. This Anokha, we're hosting a two-day workshop on Deep Learning algorithms and its application in real life, along with some hands-on activities. Brush up on your Python skills and sign up to learn more.\n\nWorkshop Topics Covered:\n\nDay 1:\n1.From Regression to Deep Learning\n2.Introduction to Python\n3.Introduction to Deep Learning Modules\n4.Linear Algebra in Python\n5.Optimization in Python\n6.Build your first Neural Network\n\nDay 2:\n1.Build your first Deep Neural Network\n2.Deep Learning for Text (RNN, LSTM and CNN)\n3.Deep Learning for Image (CNN and DNN)\n4.Deep Learning for Speech (RNN)\n5.Deep Learning for Cyber Security (RNN, LSTM and CNN). Check out the awesome Anokha Website or \ncontact V.Sanjay Kumar ph. 7094852298 for more information."
+            ]
+        },
+        {
+            "tag": "software defined radio (sdr)",
+            "patterns": [
+                "what is software defined radio (sdr)",
+                "tell me about software defined radio (sdr)",
+                "software defined radio (sdr)",
+                "when is software defined radio (sdr)",
+                "who is conducting software defined radio (sdr)",
+                "what is the software defined radio (sdr) workshop",
+                "tell me about the software defined radio (sdr) workshop"
+            ],
+            "responses": [
+                "The Software Defined Radio (Sdr) Workshop is conducted by the ECE Department. Here's a gist of what it's going to be like. Take part in this workshop and learn about software-defined radio and its applications in real time. Get hands-on experience with Universal Software Radio Peripheral (USRP) and Register Transfer Level SDR. Learn about block creation in GNU Radio, a software development toolkit, and gain certification from Amrita University.. Check out the awesome Anokha Website or \ncontact YASWANTH KARANKI ph. 9994349265 for more information."
+            ]
+        },
+        {
+            "tag": "real time power system model with data acquisition and control",
+            "patterns": [
+                "what is real time power system model with data acquisition and control",
+                "tell me about real time power system model with data acquisition and control",
+                "real time power system model with data acquisition and control",
+                "when is real time power system model with data acquisition and control",
+                "who is conducting real time power system model with data acquisition and control",
+                "what is the real time power system model with data acquisition and control workshop",
+                "tell me about the real time power system model with data acquisition and control workshop"
+            ],
+            "responses": [
+                "The Real Time Power System Model With Data Acquisition And Control Workshop is conducted by the EEE Department. Here's a gist of what it's going to be like. Take advantage of the exclusive resources of our college's EEE department and learn about power\nsystems using a scaled-down laboratory model. Learn about the Ferranti Effect, surge impedance\nloading, series and shunt compensation, enhancement of stability and the operation of a power system\nin this workshop. This is your chance to learn more about data acquisition systems, with a real-time\ndemonstration of a digital meter on MODBUS Protocol. Work on a scaled-down model of the IEEE 5 bus\nsystem, only at our Power Systems Lab, and become proficient at different types of compensation, data\nacquisition and control.. Check out the awesome Anokha Website or \ncontact Prabhasa ph. 9790086116 for more information."
+            ]
+        },
+        {
+            "tag": "self-driving car robotics",
+            "patterns": [
+                "what is self driving car robotics",
+                "tell me about self driving car robotics",
+                "self driving car robotics",
+                "when is self driving car robotics",
+                "who is conducting self driving car robotics",
+                "what is the self driving car robotics workshop",
+                "tell me about the self driving car robotics workshop"
+            ],
+            "responses": [
+                "The Self Driving Car Robotics Workshop is conducted by the EEE Department. Here's a gist of what it's going to be like. Flying cars may still be a thing of the future but self-driving cars are only a step away, with several\nautonomous features already out there. Pundits say they\u2019re going to change the way we travel by\nmaking us more productive, safe, and environmentally-friendly. Use AI, Arduino and machine learning in\nthis workshop and see your dream car model come to life under your fingers. Walk home with a\nhardware kit and the key to tomorrow's engineering. [Rs 6000 per team]\n\n Requirements:\n\u2022  One laptop per team with working Bluetooth connection. Check out the awesome Anokha Website or \ncontact Jeyanth ph. 9524425787 for more information."
+            ]
+        },
+        {
+            "tag": "ansys workshop",
+            "patterns": [
+                "what is ansys workshop",
+                "tell me about ansys workshop",
+                "ansys workshop",
+                "when is ansys workshop",
+                "who is conducting ansys workshop",
+                "what is the ansys workshop workshop",
+                "tell me about the ansys workshop workshop"
+            ],
+            "responses": [
+                "The Ansys Workshop Workshop is conducted by the MECH Department. Here's a gist of what it's going to be like. Computational Fluid Dynamics (CFD) is a tool with amazing flexibility, accuracy and breadth of application. Combine it with the right software and you\u2019ll get reliable insights to help you optimize your designs. ANSYS CFD goes beyond qualitative results to deliver accurate quantitative predictions of fluid interactions and trade-offs. It helps reveal unexpected opportunities for your product\u2014 opportunities that even experienced engineering analysts can otherwise miss.\n\nANSYS-CFD Overall Workshop Session :\n\nLecture 1:- Introduction to ANSYS\u00a0\nLecture 2:- Introduction to Workbench\u00a0\nLecture 3:- Basics of Modeler in Space Claim\nLecture 4:- Geometry Modeling in Space Claim\nLecture 5:- Geometry clean up & repair in Space Claim\u00a0\nLecture 6:- Geometry Modeling for CFD in Space Claim\u00a0\nLecture 7:- Meshing methods\u00a0\nLecture 8:- Global Mesh Control\u00a0\nLecture 9:- Local Mesh Control\u00a0\nLecture 10:- Introduction to CFD Methodology\u00a0\nLecture 11:- Cell Zone & Boundary Condition\u00a0\nLecture 12:- Solver Settings\u00a0\nLecture 13:- Post-Processing\u00a0\nLecture 14:- Turbulence Modeling\u00a0\nLecture 15:- Heat Transfer\n\nWorkshop organized by one of the best in software solutions for industries and academicians (http://coreel.com/corporate/coreel-company-overview/)\nHands-on & exercises will be provided for important topics related to Flow & thermal. Check out the awesome Anokha Website or \ncontact B.S.V.Saket ph. 8870437494 for more information."
+            ]
+        },
+        {
+            "tag": "3d printing workshop",
+            "patterns": [
+                "what is 3d printing workshop",
+                "tell me about 3d printing workshop",
+                "3d printing workshop",
+                "when is 3d printing workshop",
+                "who is conducting 3d printing workshop",
+                "what is the 3d printing workshop workshop",
+                "tell me about the 3d printing workshop workshop"
+            ],
+            "responses": [
+                "The 3D Printing Workshop Workshop is conducted by the MECH Department. Here's a gist of what it's going to be like. Michelangelo was the greatest sculptor to have ever lived and he created some of the most iconic models back in history. Today, you have the future of technology in your hands and you have all the right tools you need to create and bring life to your visualizations. Become the Michelangelo of the 21st century by getting yourself equipped with the basics of 3D printing and take home the 3D model you make as a memento of your creation. \n\n\nLearn about the materials, designing of CAD models, working of a 3D Printer\nUnderstand how to build and calibrate a 3D printer\nUnderstand the basics of G code generation\n\n3D- printer kit provided during workshop (must be returned after workshop)\nThe participants will get 3D printed models that they design  !!!\n\nCertification :\nAll AerotriX certificates have a unique ID which can be verified online for authentication\nCertificate of Completion\nCertificate of Completion with Distinction (for top performers)\n\nOnline Portal :\nParticipants have access to an exclusive online portal to: \n View study material for workshops\n Write online exams and receive separate certificates with scores. These certificates with scores will provide   students with an opportunity to show their learning in job interviews.\n\nREQUIREMENTS :\nParticipants are required to bring a laptop with Windows OS. Check out the awesome Anokha Website or \ncontact Vigneshwar.V ph. 9962014868 for more information."
+            ]
+        },
+        {
+            "tag": "programming industrial automation robots",
+            "patterns": [
+                "what is programming industrial automation robots",
+                "tell me about programming industrial automation robots",
+                "programming industrial automation robots",
+                "when is programming industrial automation robots",
+                "who is conducting programming industrial automation robots",
+                "what is the programming industrial automation robots workshop",
+                "tell me about the programming industrial automation robots workshop"
+            ],
+            "responses": [
+                "The Programming Industrial Automation Robots Workshop is conducted by the MECH Department. Here's a gist of what it's going to be like. Robotic technology is slowly becoming a major part of futuristic innovation as well as our daily life. Because of its diverse applications, professionals in this field work in a wide variety of industries, from defence and aerospace to manufacturing and design. If you have always had a passion for creating your own automated, intelligent machines, or work as a professional in the near future, this is where you belong. Learn and get industrial exposure to this diverse field by the best expert out there, Yaskawa Motoman. \n\nCourse Content : \n\n\u2022\tAdvance programming concept of YASKAWA MOTOMAN INFORM III \n\u2022\tSelection of different types of robot based upon the user applications \n\u2022\tSelection of End effectors based upon process and payload \n\u2022\tDifferent types of motion control methods and their utilization in industries \n\u2022\tMethods to define different types of coordinate system \n\u2022\tCreating TCP and work-object coordinate system \n\u2022\tIndustrial safety precautions and ISO standards to operate a robot \n\u2022\tConveyor tracking application using YASKAWA MOTOMAN MH-5 \n\u2022\tPalletizing using YASKAWA MOTOMAN six-axis robot \n\u2022\tApplication creation using MOTO SIM offline programmer \n\u2022\tUtilization of robot in TPS and AUTONOMATION \n\u2022\tControlling YASKAWA MOTOMAN robot by using third-party PLC through field I/O`s\n\u2022\tOnline monitoring and controlling of pick and place robot by using WEB based technology\n\u2022\tMulti-robot motion control technology using MOTO SIM\n\u2022\tAdding external servo to the existing Six-axis robot (7Th \u2013Axis)\n\u2022\tPick and Place application using Pneumatic gripping system\n\u2022\tConventional Tool changing robot on the running process\n\u2022\tSteps to control two six-axis robots using single DX Controller \n\u2022\tInterfacing Real-time robot with the MOTO SIM offline programmer\n\u2022\tn*n matrix dispensing process with MH manipulator \n\u2022\tMotion control of different robot axis by using an external encoder \n\u2022\tPart transfer robot with two motion control technologies\n\n\nScope of Program:\n\u2022\tMH-5 manipulator with DX 200 controller \n\u2022\tMOTO SIM software with Hardware Key \n\u2022\tPneumatics gripper \n\u2022\tProgramming Pendent \n\u2022\tPLC\n\nDemonstration and hands-on training on YASKAWA MOTOMAN\n\nAGIIT training is one of the leading industrial automation training division which provides a hands-on practical training in Industrial Automation platform.(http://www.agatrg.com/aboutus.php) they are a part of Axis Global Automation a pioneer in industrial robotic solutions.\n\nREQUREMENTS :\nParticipants are required to bring a laptop with :\n1. OS: Windows7/XP\n2. RAM: 2GB or above\n3.USB port enabled. Check out the awesome Anokha Website or \ncontact Madhu Hitesh ph. 9790047813 for more information."
+            ]
+        },
+        {
+            "tag": "safe roads",
+            "patterns": [
+                "what is safe roads",
+                "tell me about safe roads",
+                "safe roads",
+                "when is safe roads",
+                "who is conducting safe roads",
+                "what is the safe roads workshop",
+                "tell me about the safe roads workshop"
+            ],
+            "responses": [
+                "The Safe Roads Workshop is conducted by the SOCIAL WORK Department. Here's a gist of what it's going to be like. Road Safety is an issue of rising concern and the Safe Roads workshop is aimed at increasing awareness about the same. JP Research India is a leading statistical, engineering research, and data analysis firm specializing in automotive safety whose mission is to mitigate accidents and injuries to road users in India by helping local automotive safety organizations, government agencies, and manufacturers through accident and safety research and training, and by creating public awareness of automotive safety issues.  In partnership with JP Research India, the Safe Roads workshop will educate you on effective strategies to curb road accidents and injuries from the same and techniques to make the public aware.. Check out the awesome Anokha Website or \ncontact Krishna Priya ph. 9787880150 for more information."
+            ]
+        },
+        {
+            "tag": "social incubation",
+            "patterns": [
+                "what is social incubation",
+                "tell me about social incubation",
+                "social incubation",
+                "when is social incubation",
+                "who is conducting social incubation",
+                "what is the social incubation workshop",
+                "tell me about the social incubation workshop"
+            ],
+            "responses": [
+                "The Social Incubation Workshop is conducted by the SOCIAL WORK Department. Here's a gist of what it's going to be like. Do you have an idea that could change your society for better but lack the resources for the same? Then the Social Incubation workshop is the right place for you. The Social Incubation workshop aims to support young social entrepreneurs seeking to change their society and to build institutional bases in places where institutions are not quite strong yet. You can translate your vision into reality and be the change!. Check out the awesome Anokha Website or \ncontact Chippy Raj ph. 9744336186 for more information."
+            ]
+        },
+        {
+            "tag": "stress and its management",
+            "patterns": [
+                "what is stress and its management",
+                "tell me about stress and its management",
+                "stress and its management",
+                "when is stress and its management",
+                "who is conducting stress and its management",
+                "what is the stress and its management workshop",
+                "tell me about the stress and its management workshop"
+            ],
+            "responses": [
+                "The Stress And Its Management Workshop is conducted by the SOCIAL WORK Department. Here's a gist of what it's going to be like. The world is moving fast and the burden on your shoulders seems to be increasing at the same pace. In other words, you are \u2018Stressed Out\u2019. If you are looking at innovative ways to \u2018De-Stress\u2019, this workshop is the right place for you. Lear effective ways to cope with stress.. Check out the awesome Anokha Website or \ncontact Tanzila Haque ph. 9101951290 for more information."
+            ]
+        },
+        {
+            "tag": "cseWorkshops",
+            "patterns": [
+                "what are all the cse workshops",
+                "what are the cse workshops",
+                "list of cse workshops",
+                "give me the list of cse workshops",
+                "what all workshops does the cse department have",
+                "what workshops does the cse department have",
+                "what workshops does cse have",
+                "what workshops does the cse department conduct",
+                "cse workshops",
+                "tell me the cse workshops",
+                "tell me all the cse workshops",
+                "what is the best cse workshop",
+                "what is the worst cse workshop",
+                "what workshops does cse conduct",
+                "what workshop does cse have",
+                "list out all cse workshops",
+                "gimme list of cse workshops",
+                "give me list of cse workshops",
+                "cse"
+            ],
+            "responses": [
+                "The workshops provided by the cse department are \"be a ninja\" - workshop on cyber forensics\nworkshop on entrepreneurship by ib hubs\nmachine learning and internet of things using matlab\nideate - pitchfest\nanalytic nostradamus\nwebvr architect\nopen source digital investigation\nubuntu - explore and exploit kernel\ngetting started with cloud computing using aws platform\nthe hitchhikers guide to open source\nintel deep learning sdk with overview on commercial iot\ndata science and business analytics\n"
+            ],
+            "contextFilter": "deptWorkshops",
+            "contextCheck": "deptWorkshops"
+        },
+        {
+            "tag": "eceWorkshops",
+            "patterns": [
+                "what are all the ece workshops",
+                "what are the ece workshops",
+                "list of ece workshops",
+                "give me the list of ece workshops",
+                "what all workshops does the ece department have",
+                "what workshops does the ece department have",
+                "what workshops does ece have",
+                "what workshops does the ece department conduct",
+                "ece workshops",
+                "tell me the ece workshops",
+                "tell me all the ece workshops",
+                "what is the best ece workshop",
+                "what is the worst ece workshop",
+                "what workshops does ece conduct",
+                "what workshop does ece have",
+                "list out all ece workshops",
+                "gimme list of ece workshops",
+                "give me list of ece workshops",
+                "ece"
+            ],
+            "responses": [
+                "The workshops provided by the ece department are national instruments - labview\nbluetooth controlled robotics\ndeep learning workshop\nsoftware defined radio (sdr)\n"
+            ],
+            "contextFilter": "deptWorkshops",
+            "contextCheck": "deptWorkshops"
+        },
+        {
+            "tag": "eeeWorkshops",
+            "patterns": [
+                "what are all the eee workshops",
+                "what are the eee workshops",
+                "list of eee workshops",
+                "give me the list of eee workshops",
+                "what all workshops does the eee department have",
+                "what workshops does the eee department have",
+                "what workshops does eee have",
+                "what workshops does the eee department conduct",
+                "eee workshops",
+                "tell me the eee workshops",
+                "tell me all the eee workshops",
+                "what is the best eee workshop",
+                "what is the worst eee workshop",
+                "what workshops does eee conduct",
+                "what workshop does eee have",
+                "list out all eee workshops",
+                "gimme list of eee workshops",
+                "give me list of eee workshops",
+                "eee"
+            ],
+            "responses": [
+                "The workshops provided by the eee department are real time power system model with data acquisition and control\nself-driving car robotics\n"
+            ],
+            "contextFilter": "deptWorkshops",
+            "contextCheck": "deptWorkshops"
+        },
+        {
+            "tag": "mechWorkshops",
+            "patterns": [
+                "what are all the mech workshops",
+                "what are the mech workshops",
+                "list of mech workshops",
+                "give me the list of mech workshops",
+                "what all workshops does the mech department have",
+                "what workshops does the mech department have",
+                "what workshops does mech have",
+                "what workshops does the mech department conduct",
+                "mech workshops",
+                "tell me the mech workshops",
+                "tell me all the mech workshops",
+                "what is the best mech workshop",
+                "what is the worst mech workshop",
+                "what workshops does mech conduct",
+                "what workshop does mech have",
+                "list out all mech workshops",
+                "gimme list of mech workshops",
+                "give me list of mech workshops",
+                "mech"
+            ],
+            "responses": [
+                "The workshops provided by the mech department are ansys workshop\n3d printing workshop\nprogramming industrial automation robots\n"
+            ],
+            "contextFilter": "deptWorkshops",
+            "contextCheck": "deptWorkshops"
+        },
+        {
+            "tag": "chemicalWorkshops",
+            "patterns": [
+                "what are all the chemical workshops",
+                "what are the chemical workshops",
+                "list of chemical workshops",
+                "give me the list of chemical workshops",
+                "what all workshops does the chemical department have",
+                "what workshops does the chemical department have",
+                "what workshops does chemical have",
+                "what workshops does the chemical department conduct",
+                "chemical workshops",
+                "tell me the chemical workshops",
+                "tell me all the chemical workshops",
+                "what is the best chemical workshop",
+                "what is the worst chemical workshop",
+                "what workshops does chemical conduct",
+                "what workshop does chemical have",
+                "list out all chemical workshops",
+                "gimme list of chemical workshops",
+                "give me list of chemical workshops",
+                "chemical"
+            ],
+            "responses": [
+                "The workshops provided by the chemical department are aspen hysys\n"
+            ],
+            "contextFilter": "deptWorkshops",
+            "contextCheck": "deptWorkshops"
+        },
+        {
+            "tag": "aeroWorkshops",
+            "patterns": [
+                "what are all the aero workshops",
+                "what are the aero workshops",
+                "list of aero workshops",
+                "give me the list of aero workshops",
+                "what all workshops does the aero department have",
+                "what workshops does the aero department have",
+                "what workshops does aero have",
+                "what workshops does the aero department conduct",
+                "aero workshops",
+                "tell me the aero workshops",
+                "tell me all the aero workshops",
+                "what is the best aero workshop",
+                "what is the worst aero workshop",
+                "what workshops does aero conduct",
+                "what workshop does aero have",
+                "list out all aero workshops",
+                "gimme list of aero workshops",
+                "give me list of aero workshops",
+                "aero"
+            ],
+            "responses": [
+                "The workshops provided by the aero department are matlab toolbox for aero engineers\n"
+            ],
+            "contextFilter": "deptWorkshops",
+            "contextCheck": "deptWorkshops"
+        },
+        {
+            "tag": "civilWorkshops",
+            "patterns": [
+                "what are all the civil workshops",
+                "what are the civil workshops",
+                "list of civil workshops",
+                "give me the list of civil workshops",
+                "what all workshops does the civil department have",
+                "what workshops does the civil department have",
+                "what workshops does civil have",
+                "what workshops does the civil department conduct",
+                "civil workshops",
+                "tell me the civil workshops",
+                "tell me all the civil workshops",
+                "what is the best civil workshop",
+                "what is the worst civil workshop",
+                "what workshops does civil conduct",
+                "what workshop does civil have",
+                "list out all civil workshops",
+                "gimme list of civil workshops",
+                "give me list of civil workshops",
+                "civil"
+            ],
+            "responses": [
+                "The workshops provided by the civil department are green building\ngis\n"
+            ],
+            "contextFilter": "deptWorkshops",
+            "contextCheck": "deptWorkshops"
+        },
+        {
+            "tag": "social workWorkshops",
+            "patterns": [
+                "what are all the social work workshops",
+                "what are the social work workshops",
+                "list of social work workshops",
+                "give me the list of social work workshops",
+                "what all workshops does the social work department have",
+                "what workshops does the social work department have",
+                "what workshops does social work have",
+                "what workshops does the social work department conduct",
+                "social work workshops",
+                "tell me the social work workshops",
+                "tell me all the social work workshops",
+                "what is the best social work workshop",
+                "what is the worst social work workshop",
+                "what workshops does social work conduct",
+                "what workshop does social work have",
+                "list out all social work workshops",
+                "gimme list of social work workshops",
+                "give me list of social work workshops",
+                "social work"
+            ],
+            "responses": [
+                "The workshops provided by the social work department are safe roads\nsocial incubation\nstress and its management\n"
+            ],
+            "contextFilter": "deptWorkshops",
+            "contextCheck": "deptWorkshops"
+        },
+        {
+            "tag": "mathWorkshops",
+            "patterns": [
+                "what are all the math workshops",
+                "what are the math workshops",
+                "list of math workshops",
+                "give me the list of math workshops",
+                "what all workshops does the math department have",
+                "what workshops does the math department have",
+                "what workshops does math have",
+                "what workshops does the math department conduct",
+                "math workshops",
+                "tell me the math workshops",
+                "tell me all the math workshops",
+                "what is the best math workshop",
+                "what is the worst math workshop",
+                "what workshops does math conduct",
+                "what workshop does math have",
+                "list out all math workshops",
+                "gimme list of math workshops",
+                "give me list of math workshops",
+                "math"
+            ],
+            "responses": [
+                "The workshops provided by the math department are mathematical modelling and its applications\n"
+            ],
+            "contextFilter": "deptWorkshops",
+            "contextCheck": "deptWorkshops"
+        },
+        {
+            "tag": "scienceWorkshops",
+            "patterns": [
+                "what are all the science workshops",
+                "what are the science workshops",
+                "list of science workshops",
+                "give me the list of science workshops",
+                "what all workshops does the science department have",
+                "what workshops does the science department have",
+                "what workshops does science have",
+                "what workshops does the science department conduct",
+                "science workshops",
+                "tell me the science workshops",
+                "tell me all the science workshops",
+                "what is the best science workshop",
+                "what is the worst science workshop",
+                "what workshops does science conduct",
+                "what workshop does science have",
+                "list out all science workshops",
+                "gimme list of science workshops",
+                "give me list of science workshops",
+                "science"
+            ],
+            "responses": [
+                "The workshops provided by the science department are cosmic light\n"
+            ],
+            "contextFilter": "deptWorkshops",
+            "contextCheck": "deptWorkshops"
+        }
+    ]
+}

@@ -113,7 +113,9 @@
         "What about eventide",
         "Tell me about the eventide",
         "Who's coming for the eventide",
-        "Who's coming to sing during eventide"
+        "Who's coming to sing during eventide",
+        "Who are the artists coming for eventide",
+        "Who are the artists coming for anokha"
       ],
       "responses": [
         "The eventide is on the last day of Anokha(24th February). The three amazing artists who are gonna come are Rahul Nambiar, Sunitha Sarathy and Alaap Raju! Contact S Sachin: 8489269067 for more information\n"
@@ -163,12 +165,18 @@
         "Events?",
         "What is there?",
         "What's there?",
-        "What is there?"
+        "What is there?",
+        "What all events are there",
+        "tell me all the events",
+        "give me a list of events",
+        "gimme a list of events",
+        "list of events",
+        "what are all the events there"
       ],
       "responses": [
-        "There are technical, non-technical ones",
-        "There are enough events to make sure nerds, geeks and non geeks have fun"
-      ]
+        "Could you mention to which department you're referring to? We have events from cse, ece, eee, mech, chemical, aero, civil, cyber security, social work, math, science, and school zone."
+      ],
+      "contextSet": "deptEvents"
     },
     {
       "tag": "orgCommittee",
@@ -178,6 +186,9 @@
         "non technical heads",
         "non tech",
         "who are the organizing team members"
+      ],
+      "responses":[
+        "The organizing chair is our one and only Rajendran: 8508218330"
       ]
     },
     {
@@ -341,11 +352,18 @@
         "what all workshops are there",
         "what kind of workshops will be there",
         "tell me about the exhibitions",
-        "which workshops will be conducted"
+        "which workshops will be conducted",
+        "give me a list of workshops",
+        "gimme a list of workshops",
+        "list of workshops",
+        "what are all the workshops",
+        "what are the all the workshops being conducted",
+        "workshops"
       ],
       "responses": [
-        "As of right now I can't determine what all workshops are there."
-      ]
+        "Could you please mention the department? We have workshops from cse, ece, eee, mech, chemical, aero, civil, social work, math, science, shcool zone"
+      ],
+      "contextSet": "deptWorkshops"
     },
     {
       "tag": "funStall",
@@ -424,6 +442,8 @@
     {
       "tag": "techHeads",
       "patterns": [
+        "tech",
+        "tech heads",
         "Who are the tech heads?",
         "Who are the co-heads?",
         "Who are the heads?",
@@ -439,8 +459,8 @@
       "tag": "cse",
       "patterns": [
         "Who are the cse tech heads?",
+        "who are the cse heads",
         "computer science engineering",
-        "cse",
         "comp. sci",
         "computer"
       ],
@@ -454,8 +474,8 @@
       "tag": "mech",
       "patterns": [
         "Who are the mech tech heads?",
+        "who are the mech heads",
         "mechanical engineering",
-        "mech",
         "mechanical"
       ],
       "responses": [
@@ -468,8 +488,8 @@
       "tag": "ece",
       "patterns": [
         "Who are the ece tech heads?",
-        "electronics and communication engineering",
-        "ece"
+        "who are the ece heads",
+        "electronics and communication engineering"
       ],
       "responses": [
         "Heads: Katkuri Sai Sukesh Reddy. 9597601953 and Raghava Yagnik. 8870482744. Co-Heads: V Sukanya. 8903420771 and Sethu Mathavan P.K. 9994413151"
@@ -481,8 +501,8 @@
       "tag": "eee",
       "patterns": [
         "Who are the eee tech heads?",
-        "electrical and electronics engineering",
-        "eee"
+        "who are the eee heads",
+        "electrical and electronics engineering"
       ],
       "responses": [
         "Heads: Vikhash Karthik. 8883525222 and B. Lakshmi. 9600321659. Co-Heads: Athish.T. and Meenakshi Saji. 8943120312"
@@ -494,9 +514,9 @@
       "tag": "chem",
       "patterns": [
         "Who are the chemical tech heads?",
+        "who are the chemical heads",
         "chemical engineering",
-        "chem",
-        "chemical"
+        "chem"
       ],
       "responses": [
         "Heads: M Sanjay  Krishna. 9445140970 Co-Heads: Viswajeet Krishna V.9847698873 and Rishi Kaashyap B. 9500338400"
@@ -509,8 +529,8 @@
       "patterns": [
         "Who are the aero tech heads?",
         "Who are the aerospace tech heads?",
+        "who are the aerospace heads",
         "aerospace engineering",
-        "aero",
         "aerospace"
       ],
       "responses": [
@@ -524,8 +544,8 @@
       "patterns": [
         "Who are the civil tech heads?",
         "Who are the civil engineering tech heads?",
-        "civil engineering",
-        "civil"
+        "who are the civil heads",
+        "civil engineering"
       ],
       "responses": [
         "Heads: Senthil Kumar  S K. 7598686756 Co-Heads: Mouries R D. R.9976070888 and Krishnaraj R. 9445482183"
@@ -539,6 +559,7 @@
         "Who are the ascom tech heads?",
         "Who are the school of communication tech heads?",
         "who are the amrita school of communication tech heads",
+        "who are the ascom heads",
         "amrita school of communication",
         "ascom",
         "communication"
@@ -553,6 +574,7 @@
       "tag": "cen",
       "patterns": [
         "Who are the cen tech heads?",
+        "who are the cen heads",
         "Who are the computational engineering and networking tech heads?",
         "cen"
       ],
@@ -567,6 +589,7 @@
       "patterns": [
         "Who are the cyber security tech heads?",
         "Who are the cyber sec tech heads?",
+        "who are the cyber security heads",
         "cyber sec",
         "cyber security"
       ],
@@ -594,8 +617,7 @@
       "tag": "maths",
       "patterns": [
         "Who are the maths tech heads?",
-        "Who are the math heads?",
-        "math"
+        "Who are the math heads?"
       ],
       "responses": [
         "Heads: K.V.S  Sai Kashyap. 9566560186 and Kondemudi Chandramouli. 9790419963 Co-Heads: Chava Meghana. 9003803863 and Thalla Laxmi Thylokya. 9003863739"
@@ -607,8 +629,7 @@
       "tag": "science",
       "patterns": [
         "Who are the sciences tech heads?",
-        "Who are the science heads?",
-        "science"
+        "Who are the science heads?"
       ],
       "responses": [
         "Heads: Anupama Sujatha. 9490983688 and Oviya Mohan. 7200860205"
@@ -669,6 +690,19 @@
       "responses": [
         "Om Nama Shivayaaaa!",
         "Trigger Panadhe!"
+      ]
+    },
+    {
+      "tag": "quality",
+      "patterns": [
+        "you suck",
+        "untrained",
+        "why are you so untrained",
+        "you need more training",
+        "not good"
+      ],
+      "responses": [
+        "Please don't insult me. I'm already seeing 2 therapists. You can type /wrong to help me get better."
       ]
     },
     {
@@ -740,10 +774,17 @@
         "website",
         "site",
         "app",
-        "android"
+        "android",
+        "tell me the ankoha app",
+        "does anokha have an app",
+        "does anokha have a website",
+        "tell me the anokha website",
+        "what is the anokha website",
+        "give me the url for the anokha website",
+        "give me the url"
       ],
       "responses": [
-        "checkout our website at https://anokha.amrita.edu or the android app anokha in play store"
+        "We have an amazing website as well as an equally good android app. Check them both out at https://anokha.amrita.edu"
       ]
     }
   ]

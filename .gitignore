@@ -6,4 +6,5 @@ TestConfig.py
 OrgTeamData.json
 TechTeamData.json
 .vscode
-test.py
+*Dynamic.py
+test*
