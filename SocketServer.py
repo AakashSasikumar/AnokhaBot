@@ -50,6 +50,7 @@ def startListening():
         return
     except Exception as e:
         print("Error while parsing the GET Request", e)
+        return
     finally:
         pass
     
@@ -61,7 +62,8 @@ def startListening():
         print(e)
         return
     except Exception as e:
-        print("Error while parsing GET Request", e)
+        print("Either the query, or id parameters haven't been passed. Make sure the request is x.x.x.x", e)
+        return
     finally:
         pass
     
